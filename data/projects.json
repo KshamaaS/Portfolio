@@ -1,0 +1,119 @@
+{
+    "_comment": "============================================================",
+    "_instructions": [
+        "HOW TO MANAGE YOUR PROJECTS",
+        "============================================================",
+        "",
+        "This file contains all my projects. Edit this file to add,",
+        "remove, or update projects on my portfolio.",
+        "",
+        "IMPORTANT: This is a JSON file. Be careful with commas!",
+        "- Each project needs a comma after it EXCEPT the last one",
+        "- Each field needs a comma after it EXCEPT the last one in that project",
+        "",
+        "REQUIRED FIELDS FOR EACH PROJECT:",
+        "- id: A unique identifier (any text, no spaces)",
+        "- title: The project name",
+        "- type: Either 'personal' or 'work'",
+        "- description: A short description (2-3 sentences)",
+        "- technologies: An array of tech used ['Tech1', 'Tech2']",
+        "",
+        "OPTIONAL FIELDS:",
+        "- image: Path to project image (put images in assets/projects/)",
+        "- github: GitHub URL (typically for personal projects)",
+        "- liveUrl: Live demo URL",
+        "",
+        "TO ADD A PROJECT: Copy one of the examples below and modify it",
+        "TO REMOVE A PROJECT: Delete the entire {...} block (and fix commas)",
+        "",
+        "============================================================"
+    ],
+    
+    "projects": [
+        {
+            "id": "Project-1",
+            "title": "Skincare suggestor",
+            "type": "Personal",
+            "description": "A LLM model that recommends skincare products based on user input/questions built as a part of my Applied Machine Learning class.",
+            "technologies": ["Python","Pytorch","Tensorflow"]
+        },
+        {
+            "id": "Project-2",
+            "title": "Colorectal cancer Study",
+            "type": "Personal",
+            "description": "A visualization project built as a part of my data visualization course that looks into data for colorectal cancer and generates plots to derive insights.",
+            "technologies": ["Python","R"]
+        },
+        {
+            "id": "Project-3",
+            "title": "Random Password Generator",
+            "type": "Personal",
+            "description": "A wesbite that generates random passwords using HTML,CSS and Javascript built during undergrad.",
+            "technologies": ["HTML","CSS","JavaScript"],
+            "github": "https://github.com/KshamaaS/Random-Password-Generator"
+        },
+        {
+            "id": "Project-4",
+            "title": "Notepad application",
+            "type": "Personal",
+            "description": "A simple notepad application built using python during undergrad.",
+            "technologies": ["Python"],
+            "github": "https://github.com/KshamaaS/Notepad"
+        },
+        {
+            "id": "Project-5",
+            "title": "Calculator application",
+            "type": "Personal",
+            "description": "A simple calculator application built using python during undergrad.",
+            "technologies": ["Python"],
+            "github": "https://github.com/KshamaaS/Calculator"
+        },
+        {
+            "id": "Project-6",
+            "title": "Tic tac toe",
+            "type": "Personal",
+            "description": "Tic tac toe game built using python during undergrad.",
+            "technologies": ["Python"],
+            "github": "https://github.com/KshamaaS/TicTacToeGame"
+        },
+        {
+            "id": "Project-7",
+            "title": "Generative AI for Data Analytics",
+            "type": "Work",
+            "description": "Engineered Generative AI data validation systems using Claude API on Databricks and Cortex AI with Mistral-large2 on Snowflake, achieving 70 percent better accuracy in detecting data anomalies. Built NLP pipelines to process AI outputs into structured tables, automated ThoughtSpot reports for business users, and deployed interactive Streamlit dashboards on Azure enabling self-service visualization of data mismatches—reducing manual validation burden by 80 percent.",
+            "technologies": ["Python", "Databricks", "Snowflake", "Tensorflow", "Pytorch", "Transformers","SQL"],
+            "image": "assets/projects/ecolab.png"
+        },
+        {
+            "id": "Project-8",
+            "title": "Email Alerting System",
+            "type": "Work",
+            "description": "Developed an automated pipeline monitoring system using Python within Snowflake to query execution logs and track daily status of all data pipelines. Engineered proactive email alerts that notify stakeholders of failures within 120 seconds, including specific job names and timestamps. Enhanced operational visibility and reduced downtime by eliminating manual log checks and accelerating response times.",
+            "technologies": ["Python","Snowflake","SQL"],
+            "image": "assets/projects/ecolab.png"
+        },
+        {
+            "id": "Project-9",
+            "title": "GBS Reporting",
+            "type": "Work",
+            "description": "Architected a centralized Snowflake stage environment consolidating data from multiple subject area tables, streamlining access to vital business metrics for the GBS team. Developed automated ThoughtSpot dashboards for daily source-to-target data comparisons, enabling real-time error detection. Enhanced data integrity and reduced manual reporting effort through self-service analytics, eliminating tedious daily table iteration.",
+            "technologies": ["Python","Snowflake","SQL","Thoughtspot"],
+            "image": "assets/projects/ecolab.png"
+        },
+        {
+            "id": "Project-10",
+            "title": "View Regression Automation",
+            "type": "Work",
+            "description": "Constructed an automated regression testing framework in Python to certify data integrity across multiple Snowflake layers (ILA, ILB, Base Model). Engineered monitoring for over 1,000 production database views, automatically categorizing by project and logging performance impacts. Developed a user-friendly tool that generates validation queries from table names alone, simplifying testing for non-technical users. Project recognized as final university thesis.",
+            "technologies": ["Python","Snowflake","SQL"],
+            "image": "assets/projects/ecolab.png"
+        },
+        {
+            "id": "Project-11",
+            "title": "IoT based Smart Irrigation System",
+            "type": "Personal",
+            "description": "Formulated and prototyped a smart IoT irrigation system using NodeMCU ESP8266, integrating soil moisture and DHT11 sensors to collect and transmit real-time environmental data to a cloud interface. Engineered an automated watering solution optimizing agricultural water usage through data-driven triggers, supporting sustainability goals. Published system architecture and results in the IFERP journal, contributing to IoT applications in sustainable agriculture.",
+            "technologies": ["Python"]
+        }
+    ]
+}

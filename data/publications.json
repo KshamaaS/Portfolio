@@ -1,0 +1,74 @@
+{
+    "_comment": "============================================================",
+    "_instructions": [
+        "HOW TO MANAGE YOUR PUBLICATIONS",
+        "============================================================",
+        "",
+        "This file contains all my publications. Edit this file to add,",
+        "remove, or update publications on my portfolio.",
+        "",
+        "PUBLICATION TYPES:",
+        "- 'book' : Books you've authored or co-authored",
+        "- 'research' : Conference papers and proceedings",
+        "",
+        "REQUIRED FIELDS:",
+        "- id: A unique identifier (any text, no spaces)",
+        "- title: The publication title",
+        "- type: 'book', 'journal', or 'conference'",
+        "- authors: List of authors (my name will be highlighted)",
+        "- year: Publication year",
+        "- description: Brief description or abstract summary",
+        "",
+        "OPTIONAL FIELDS:",
+        "- publisher: Publisher name (for books)",
+        "- journal: Journal name (for journal articles)",
+        "- conference: Conference name (for conference papers)",
+        "- volume: Volume number",
+        "- issue: Issue number",
+        "- pages: Page range",
+        "- doi: DOI link",
+        "- url: Direct link to the publication",
+        "- pdf: Link to PDF (can be external or in assets folder)",
+        "- isbn: ISBN for books",
+        "- image: Cover image (for books, put in assets/publications/)",
+        "",
+        "============================================================"
+    ],
+    
+    "yourName": "Kshamaa Suresh",
+    
+    "publications": [
+        {
+            "id": "Book-1",
+            "title": "A Memo of Memories",
+            "type": "Book",
+            "authors": ["Kshamaa Suresh"],
+            "year": "2025",
+            "publisher": "Amazon KDP",
+            "isbn": "979-8316935727",
+            "description": "A self published book of poems and stories that will make your mind stop and think.",
+            "url": "https://a.co/d/aLYlLsO"
+        },
+        {
+            "id": "Book-2",
+            "title": "World With Words",
+            "type": "Book",
+            "authors": ["Kshamaa Suresh"],
+            "year": "2022",
+            "publisher": "The Little Booktique Hub",
+            "description": "Words are emotions and every emotion expressed needs to be felt. A collection of poems and stories that make you look at the world through a kaleidoscope of emotions.",
+            "url": "https://amzn.in/d/blWJiqS"
+        },
+        {
+            "id": "Conference-1",
+            "title": "Smart Irrigation System using Soil Moisture sensor",
+            "type": "Research",
+            "authors": ["Kshamaa Suresh", "Jyothi AP", "Vaishnavi B", "Sanjay JR", "Vineet Kushalappa"],
+            "year": "2023",
+            "conference": "International Journal of Engineering Research in Computer Science and Engineering (IJERCSE)",
+            "description": "Developed a smart IoT irrigation system using sensor technology to optimize agricultural water usage, supporting sustainability goals and reducing waste through automated, data-driven triggers.",
+            "url": "https://ijercse.com/viewabstract.php?id=16361&volume=Volume10&issue=Issue7",
+            "pdf": "https://www.technoarete.org/common_abstract/pdf/IJERCSE/v10/i7/Ext_52304.pdf"
+        }
+    ]
+}

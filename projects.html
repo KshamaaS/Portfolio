@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Kshamaa Suresh</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Kshamaa Suresh</a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="assets/resume.pdf" target="_blank" class="nav-resume">Resume</a></li>
+            </ul>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>My Projects</h1>
+            <p>A collection of my personal and professional work</p>
+        </div>
+    </header>
+
+    <!-- 
+    =====================================================
+    PROJECTS SECTION
+
+    - Projects are stored in "data/projects.json"
+    - The JavaScript file (js/projects.js) reads that file
+    - It automatically creates project cards and puts them here
+    
+    TO ADD/EDIT/REMOVE PROJECTS:
+    - Open "data/projects.json"
+    - Follow the instructions there
+    - Save the file
+    - Refresh the page to see changes
+    
+    You don't need to edit this HTML file to manage projects!
+    =====================================================
+    -->
+    <main class="projects-page">
+        <div class="container">
+            
+            <!-- Filter buttons to switch between project types -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="Personal">Personal</button>
+                <button class="filter-btn" data-filter="Work">Work</button>
+            </div>
+            
+            <!-- Projects will be automatically inserted here by JavaScript -->
+            <div class="projects-grid" id="projects-container">
+                <p class="loading-message">Loading projects...</p>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <!-- UPDATE: Change the year and your name -->
+            <p>&copy; Kshamaa Suresh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript files -->
+    <script src="js/main.js"></script>
+    <script src="js/projects.js"></script>
+</body>
+</html>

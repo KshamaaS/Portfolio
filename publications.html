@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | Kshamaa Suresh</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Kshamaa Suresh</a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="publications.html" class="active">Publications</a></li>
+                <li><a href="assets/resume.pdf" target="_blank" class="nav-resume">Resume</a></li>
+            </ul>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Publications</h1>
+            <p>My books and research papers</p>
+        </div>
+    </header>
+
+    <!-- 
+    =====================================================
+    PUBLICATIONS SECTION
+    - Publications are stored in "data/publications.json"
+    - The JavaScript file (js/publications.js) reads that file
+    - It automatically creates publication entries and puts them here
+    
+    TO ADD/EDIT/REMOVE PUBLICATIONS:
+    - Open "data/publications.json"
+    - Follow the instructions there
+    - Save the file
+    - Refresh the page to see changes
+    =====================================================
+    -->
+    <main class="publications-page">
+        <div class="container">
+            
+            <!-- Filter buttons to switch between publication types -->
+            <div class="publication-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="Book">Books</button>
+                <button class="filter-btn" data-filter="Research">Research</button>
+            </div>
+            
+            <!-- Publications will be automatically inserted here by JavaScript -->
+            <div class="publications-list" id="publications-container">
+                <p class="loading-message">Loading publications...</p>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <!-- UPDATE: Change the year and your name -->
+            <p>&copy; Kshamaa Suresh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript files -->
+    <script src="js/main.js"></script>
+    <script src="js/publications.js"></script>
+</body>
+</html>

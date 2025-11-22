@@ -1,0 +1,26 @@
+FILES TO ADD IN THIS FOLDER:
+
+1. profile.jpg
+   - Your professional photo
+   - Recommended: Square image, at least 400x400 pixels
+   - Will appear on the home page
+
+2. resume.pdf
+   - Your resume/CV
+   - Will be linked for download
+
+3. projects/ folder
+   - Add screenshots of your projects here
+   - Reference them in projects.json like: "image": "assets/projects/myproject.png"
+   - Recommended size: 800x500 pixels or similar aspect ratio
+
+4. publications/ folder
+   - Add book covers here
+   - Reference them in publications.json like: "image": "assets/publications/book-cover.png"
+   - Recommended size: 300x400 pixels or similar book ratio
+
+Tips for photos:
+- Use a professional, well-lit photo
+- Simple background works best
+- Smile! You want to look approachable
+- Crop to square for best results
