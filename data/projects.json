@@ -31,89 +31,187 @@
     
     "projects": [
         {
-            "id": "Project-1",
-            "title": "Skincare suggestor",
-            "type": "Personal",
-            "description": "A LLM model that recommends skincare products based on user input/questions built as a part of my Applied Machine Learning class.",
-            "technologies": ["Python","Pytorch","Tensorflow"]
-        },
-        {
-            "id": "Project-2",
-            "title": "Colorectal cancer Study",
-            "type": "Personal",
-            "description": "A visualization project built as a part of my data visualization course that looks into data for colorectal cancer and generates plots to derive insights.",
-            "technologies": ["Python","R"]
-        },
-        {
-            "id": "Project-3",
-            "title": "Random Password Generator",
-            "type": "Personal",
-            "description": "A wesbite that generates random passwords using HTML,CSS and Javascript built during undergrad.",
-            "technologies": ["HTML","CSS","JavaScript"],
-            "github": "https://github.com/KshamaaS/Random-Password-Generator"
-        },
-        {
-            "id": "Project-4",
-            "title": "Notepad application",
-            "type": "Personal",
-            "description": "A simple notepad application built using python during undergrad.",
-            "technologies": ["Python"],
-            "github": "https://github.com/KshamaaS/Notepad"
-        },
-        {
-            "id": "Project-5",
-            "title": "Calculator application",
-            "type": "Personal",
-            "description": "A simple calculator application built using python during undergrad.",
-            "technologies": ["Python"],
-            "github": "https://github.com/KshamaaS/Calculator"
-        },
-        {
-            "id": "Project-6",
-            "title": "Tic tac toe",
-            "type": "Personal",
-            "description": "Tic tac toe game built using python during undergrad.",
-            "technologies": ["Python"],
-            "github": "https://github.com/KshamaaS/TicTacToeGame"
-        },
-        {
-            "id": "Project-7",
-            "title": "Generative AI for Data Analytics",
-            "type": "Work",
-            "description": "Engineered Generative AI data validation systems using Claude API on Databricks and Cortex AI with Mistral-large2 on Snowflake, achieving 70 percent better accuracy in detecting data anomalies. Built NLP pipelines to process AI outputs into structured tables, automated ThoughtSpot reports for business users, and deployed interactive Streamlit dashboards on Azure enabling self-service visualization of data mismatches—reducing manual validation burden by 80 percent.",
-            "technologies": ["Python", "Databricks", "Snowflake", "Tensorflow", "Pytorch", "Transformers","SQL"],
-            "image": "assets/projects/ecolab.png"
-        },
-        {
-            "id": "Project-8",
-            "title": "Email Alerting System",
-            "type": "Work",
-            "description": "Developed an automated pipeline monitoring system using Python within Snowflake to query execution logs and track daily status of all data pipelines. Engineered proactive email alerts that notify stakeholders of failures within 120 seconds, including specific job names and timestamps. Enhanced operational visibility and reduced downtime by eliminating manual log checks and accelerating response times.",
-            "technologies": ["Python","Snowflake","SQL"],
-            "image": "assets/projects/ecolab.png"
-        },
-        {
-            "id": "Project-9",
-            "title": "GBS Reporting",
-            "type": "Work",
-            "description": "Architected a centralized Snowflake stage environment consolidating data from multiple subject area tables, streamlining access to vital business metrics for the GBS team. Developed automated ThoughtSpot dashboards for daily source-to-target data comparisons, enabling real-time error detection. Enhanced data integrity and reduced manual reporting effort through self-service analytics, eliminating tedious daily table iteration.",
-            "technologies": ["Python","Snowflake","SQL","Thoughtspot"],
-            "image": "assets/projects/ecolab.png"
-        },
-        {
-            "id": "Project-10",
-            "title": "View Regression Automation",
-            "type": "Work",
-            "description": "Constructed an automated regression testing framework in Python to certify data integrity across multiple Snowflake layers (ILA, ILB, Base Model). Engineered monitoring for over 1,000 production database views, automatically categorizing by project and logging performance impacts. Developed a user-friendly tool that generates validation queries from table names alone, simplifying testing for non-technical users. Project recognized as final university thesis.",
-            "technologies": ["Python","Snowflake","SQL"],
-            "image": "assets/projects/ecolab.png"
-        },
-        {
-            "id": "Project-11",
-            "title": "IoT based Smart Irrigation System",
-            "type": "Personal",
-            "description": "Formulated and prototyped a smart IoT irrigation system using NodeMCU ESP8266, integrating soil moisture and DHT11 sensors to collect and transmit real-time environmental data to a cloud interface. Engineered an automated watering solution optimizing agricultural water usage through data-driven triggers, supporting sustainability goals. Published system architecture and results in the IFERP journal, contributing to IoT applications in sustainable agriculture.",
-            "technologies": ["Python"]
-        }
+    "id": "Project-1",
+    "title": "Skincare suggestor",
+    "type": "Personal",
+    "description": [
+        "Built LLM-based skincare product recommendation system",
+        "Accepts user questions and provides personalized suggestions",
+        "Developed for Applied Machine Learning course"
+    ],
+    "technologies": ["Python","Pytorch","Tensorflow"],
+    "github": "https://github.com/AML-GGYK/DermaLLM",
+    "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/skincare-agent"
+},
+{
+    "id": "Project-2",
+    "title": "Colorectal cancer Study",
+    "type": "Personal",
+    "description": [
+        "Analyzed colorectal cancer data to derive insights",
+        "Created visualizations and plots for data exploration",
+        "Built for Data Visualization course"
+    ],
+    "technologies": ["Python","R"],
+    "github": "https://github.com/KshamaaS/colorectal-cancer-analysis",
+    "liveUrl": "https://kshamaas.github.io/colorectal-cancer-analysis/"
+},
+{
+    "id": "Project-3",
+    "title": "Random Password Generator",
+    "type": "Personal",
+    "description": [
+        "Generates random passwords",
+        "Built using HTML, CSS, and JavaScript",
+        "Developed during undergraduate studies"
+    ],
+    "technologies": ["HTML","CSS","JavaScript"],
+    "github": "https://github.com/KshamaaS/Random-Password-Generator"
+},
+{
+    "id": "Project-4",
+    "title": "Notepad application",
+    "type": "Personal",
+    "description": [
+        "Simple notepad application",
+        "Built with Python",
+        "Developed during undergraduate studies"
+    ],
+    "technologies": ["Python"],
+    "github": "https://github.com/KshamaaS/Notepad"
+},
+{
+    "id": "Project-5",
+    "title": "Calculator application",
+    "type": "Personal",
+    "description": [
+        "Simple calculator application",
+        "Built with Python",
+        "Developed during undergraduate studies"
+    ],
+    "technologies": ["Python"],
+    "github": "https://github.com/KshamaaS/Calculator"
+},
+{
+    "id": "Project-6",
+    "title": "Tic tac toe",
+    "type": "Personal",
+    "description": [
+        "Tic-tac-toe game",
+        "Built with Python",
+        "Developed during undergraduate studies"
+    ],
+    "technologies": ["Python"],
+    "github": "https://github.com/KshamaaS/TicTacToeGame"
+},
+{
+    "id": "Project-7",
+    "title": "Generative AI for Data Analytics",
+    "type": "Work",
+    "description": [
+        "Engineered Generative AI data validation systems using Claude API on Databricks and Cortex AI with Mistral-large2 on Snowflake",
+        "Achieved 70% better accuracy in detecting data anomalies",
+        "Built NLP pipelines to process AI outputs into structured tables",
+        "Automated ThoughtSpot reports for business users",
+        "Deployed interactive Streamlit dashboards on Azure enabling self-service visualization",
+        "Reduced manual validation burden by 80%"
+    ],
+    "technologies": ["Python", "Databricks", "Snowflake", "Tensorflow", "Pytorch", "Transformers","SQL"],
+    "image": "assets/projects/ecolab.png"
+},
+{
+    "id": "Project-8",
+    "title": "Email Alerting System",
+    "type": "Work",
+    "description": [
+        "Developed automated pipeline monitoring system using Python within Snowflake",
+        "Queried execution logs and tracked daily status of all data pipelines",
+        "Engineered proactive email alerts notifying stakeholders of failures within 120 seconds",
+        "Included specific job names and timestamps in alerts",
+        "Enhanced operational visibility and reduced downtime",
+        "Eliminated manual log checks and accelerated response times"
+    ],
+    "technologies": ["Python","Snowflake","SQL"],
+    "image": "assets/projects/ecolab.png"
+},
+{
+    "id": "Project-9",
+    "title": "GBS Reporting",
+    "type": "Work",
+    "description": [
+        "Architected centralized Snowflake stage environment consolidating data from multiple subject area tables",
+        "Streamlined access to vital business metrics for the GBS team",
+        "Developed automated ThoughtSpot dashboards for daily source-to-target data comparisons",
+        "Enabled real-time error detection",
+        "Enhanced data integrity and reduced manual reporting effort",
+        "Implemented self-service analytics, eliminating tedious daily table iteration"
+    ],
+    "technologies": ["Python","Snowflake","SQL","Thoughtspot"],
+    "image": "assets/projects/ecolab.png"
+},
+{
+    "id": "Project-10",
+    "title": "View Regression Automation",
+    "type": "Work",
+    "description": [
+        "Constructed automated regression testing framework in Python for data integrity certification",
+        "Monitored data integrity across multiple Snowflake layers (ILA, ILB, Base Model)",
+        "Engineered monitoring for over 1,000 production database views",
+        "Automatically categorized views by project and logged performance impacts",
+        "Developed user-friendly tool generating validation queries from table names alone",
+        "Simplified testing for non-technical users",
+        "Recognized as final university thesis"
+    ],
+    "technologies": ["Python","Snowflake","SQL"],
+    "image": "assets/projects/ecolab.png"
+},
+{
+    "id": "Project-11",
+    "title": "IoT based Smart Irrigation System",
+    "type": "Personal",
+    "description": [
+        "Formulated and prototyped smart IoT irrigation system using NodeMCU ESP8266",
+        "Integrated soil moisture and DHT11 sensors for real-time environmental data collection",
+        "Transmitted data to cloud interface for monitoring",
+        "Engineered automated watering solution optimizing agricultural water usage",
+        "Supported sustainability goals through data-driven triggers",
+        "Published system architecture and results in IFERP journal",
+        "Contributed to IoT applications in sustainable agriculture"
+    ],
+    "technologies": ["Python"]
+},
+{
+    "id": "Project-12",
+    "title": "Tiny Transformer for Shakespeare Text Generation",
+    "type": "Personal",
+    "description": [
+        "Built Tiny Transformer architecture for next-token prediction on Shakespeare text corpus",
+        "Implemented WordPiece tokenization with vocabulary size of 500 tokens",
+        "Designed transformer with 3 layers, 8 attention heads, and 128 hidden dimensions (722,676 parameters)",
+        "Achieved validation perplexity of 45.25 (11x better than random guessing)",
+        "Trained using GPU acceleration with cosine annealing learning rate schedule",
+        "Generated coherent Shakespeare-style text samples with temperature-based sampling",
+        "Visualized attention patterns across multiple heads and layers",
+        "Developed for Applied Machine Learning course"
+    ],
+    "technologies": ["Python", "PyTorch", "Transformers"],
+    "github": "https://github.com/KshamaaS/TinyTransformer"
+},
+{
+    "id": "Project-13",
+    "title": "Drosophila Larval Brain Network Analysis",
+    "type": "Personal",
+    "description": [
+        "Performed community detection on Drosophila connectome using Louvain algorithm and label propagation",
+        "Conducted spatial distribution analysis using K-nearest neighbors, Hopkins statistic, and Ripley's K function",
+        "Implemented multi-scale analysis comparing network structure and spatial organization across neural communities",
+        "Optimized code with vectorized operations using NumPy and efficient nearest-neighbor search with ball trees",
+        "Analyzed synaptic distributions to detect clustering patterns and functional specialization",
+        "Monitored over 1,000 production database views for performance impacts",
+        "Visualized community structures, spatial distributions, and multi-scale patterns"
+    ],
+    "technologies": ["Python", "NetworkX", "scikit-learn", "SciPy", "NumPy", "Pandas"],
+    "github": "https://github.com/KshamaaS/Drosophila-Larval-Brain-Network-Analysis"
+}
     ]
 }
