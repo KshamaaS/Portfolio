@@ -95,8 +95,18 @@ function createProjectCard(project) {
     // Project title
     html += '<h3>' + project.title + '</h3>';
     
-    // Project description
-    html += '<p>' + project.description + '</p>';
+    // Project description - UPDATED TO HANDLE ARRAYS
+    if (Array.isArray(project.description)) {
+        // It's an array - show as bullet points
+        html += '<ul class="project-description">';
+        project.description.forEach(function(point) {
+            html += '<li>' + point + '</li>';
+        });
+        html += '</ul>';
+    } else {
+        // It's a string - show as paragraph
+        html += '<p>' + project.description + '</p>';
+    }
     
     // Technologies used
     if (project.technologies && project.technologies.length > 0) {
