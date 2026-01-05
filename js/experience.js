@@ -102,7 +102,14 @@ function createExperienceEntry(experience) {
         html += '<p class="experience-company">' + experience.company + '</p>';
     }
     
+    // Location
     html += '<p class="experience-location">' + experience.location + '</p>';
+    
+    // GPA on separate line (if available)
+    if (experience.gpa) {
+        html += '<p class="experience-gpa">GPA: ' + experience.gpa + '</p>';
+    }
+    
     html += '</div>'; // Close experience-title-info
     html += '</div>'; // Close experience-title-section
     
