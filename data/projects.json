@@ -116,8 +116,7 @@
         "Deployed interactive Streamlit dashboards on Azure enabling self-service visualization",
         "Reduced manual validation burden by 80%"
     ],
-    "technologies": ["Python", "Databricks", "Snowflake", "Tensorflow", "Pytorch", "Transformers","SQL"],
-    "image": "assets/projects/ecolab.png"
+    "technologies": ["Python", "Databricks", "Snowflake", "Tensorflow", "Pytorch", "Transformers","SQL"]
 },
 {
     "id": "Project-8",
@@ -131,8 +130,7 @@
         "Enhanced operational visibility and reduced downtime",
         "Eliminated manual log checks and accelerated response times"
     ],
-    "technologies": ["Python","Snowflake","SQL"],
-    "image": "assets/projects/ecolab.png"
+    "technologies": ["Python","Snowflake","SQL"]
 },
 {
     "id": "Project-9",
@@ -146,8 +144,7 @@
         "Enhanced data integrity and reduced manual reporting effort",
         "Implemented self-service analytics, eliminating tedious daily table iteration"
     ],
-    "technologies": ["Python","Snowflake","SQL","Thoughtspot"],
-    "image": "assets/projects/ecolab.png"
+    "technologies": ["Python","Snowflake","SQL","Thoughtspot"]
 },
 {
     "id": "Project-10",
@@ -162,8 +159,7 @@
         "Simplified testing for non-technical users",
         "Recognized as final university thesis"
     ],
-    "technologies": ["Python","Snowflake","SQL"],
-    "image": "assets/projects/ecolab.png"
+    "technologies": ["Python","Snowflake","SQL"]
 },
 {
     "id": "Project-11",

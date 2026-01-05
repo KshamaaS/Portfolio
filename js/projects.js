@@ -86,7 +86,12 @@ function createProjectCard(project) {
     // data-type stores whether it's "Personal" or "Work" for filtering
     html += '<div class="project-card" data-type="' + project.type + '">';
     
-    // Project content section (no images)
+    // Project image (if available)
+    if (project.image) {
+        html += '<img src="' + project.image + '" alt="' + project.title + '" class="project-image">';
+    }
+    
+    // Project content section
     html += '<div class="project-content">';
     
     // Project type badge (Personal or Work)

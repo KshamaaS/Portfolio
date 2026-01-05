@@ -1,0 +1,101 @@
+{
+    "_comment": "============================================================",
+    "_instructions": [
+        "HOW TO MANAGE YOUR EXPERIENCE",
+        "============================================================",
+        "",
+        "This file contains all my work experience. Edit this file to add,",
+        "remove, or update your professional experience on my portfolio.",
+        "",
+        "IMPORTANT: This is a JSON file. Be careful with commas!",
+        "- Each experience needs a comma after it EXCEPT the last one",
+        "- Each field needs a comma after it EXCEPT the last one in that experience",
+        "",
+        "REQUIRED FIELDS FOR EACH EXPERIENCE:",
+        "- id: A unique identifier (any text, no spaces)",
+        "- title: Your job title",
+        "- company: Company name",
+        "- location: Work location (city, country or 'Remote')",
+        "- startDate: Start date (format: 'Month Year', e.g., 'January 2022')",
+        "- endDate: End date (format: 'Month Year' or 'Present')",
+        "- description: Array of key highlights/achievements (bullet points)",
+        "",
+        "OPTIONAL FIELDS:",
+        "- companyUrl: Link to company website",
+        "- logo: Path to company logo (put images in assets/companies/)",
+        "",
+        "TO ADD AN EXPERIENCE: Copy one of the examples below and modify it",
+        "TO REMOVE AN EXPERIENCE: Delete the entire {...} block (and fix commas)",
+        "",
+        "============================================================"
+    ],
+    
+    "experiences": [
+        {
+            "id": "1",
+            "title": "Master of Science in Data Science",
+            "company": "Columbia University",
+            "location": "New York, NY",
+            "startDate": "September 2023",
+            "endDate": "December 2026",
+            "description": [
+                "Pursuing advanced coursework in Machine Learning, Deep Learning, Applied Machine Learning, and Functional Genomics",
+                "Developed multimodal UMAP project for dual-UMAP alignment using GSE140203 SHARE-seq dataset with 34,774 mouse skin cells",
+                "Built crash-resistant preprocessing pipeline handling both RNA expression and chromatin accessibility data",
+                "Implemented DQN agent for Pokemon battles and comprehensive AI skincare consultant application using RAG pipelines with LangChain and OpenAI's API",
+                "Utilized Google Cloud TPU credits for collaborative machine learning projects",
+                "Completed extensive work on regression analysis, geospatial data analysis, and algorithms coursework"
+            ],
+            "companyUrl": "https://www.columbia.edu",
+            "logo": "assets/projects/columbia.jpg"
+        },
+        {
+            "id": "2",
+            "title": "Associate Business Process Analyst",
+            "company": "Ecolab",
+            "location": "Bangalore, India",
+            "startDate": "January 2025",
+            "endDate": "July 2025",
+            "description": [
+                "Designed and implemented a Python/Snowflake Email Alerting System monitored data pipeline status, providing stakeholders with real-time failure notifications (including job names and timestamps) in under 120 seconds, reducing data downtime.",
+                "Architected a centralized GBS Snowflake stage environment to consolidate data from multiple sources, streamlining access to vital business metrics for reporting and analysis.",
+                "Developed automated ThoughtSpot dashboards to visualize key GBS metrics and perform daily source-to-target comparisons, boosting data integrity and enabling real-time error detection.",
+                "Constructed an ML classification framework in Python to programmatically identify and correct erroneous Ultimate Parent Code assignments and customer-site matches in MDM data.",
+                "Delivered actionable data quality intelligence by automating detection of critical One Customer data inaccuracies, enabling proactive corrections and ensuring 90% data reliability before errors reached customers."
+            ],
+            "companyUrl": "https://www.ecolab.com",
+            "logo": "assets/projects/ecolab.jpg"
+        },
+        {
+            "id": "3",
+            "title": "Associate Data Engineer",
+            "company": "Ecolab",
+            "location": "Bangalore, India",
+            "startDate": "July 2023",
+            "endDate": "December 2024",
+            "description": [
+                "Led large-scale data integrity initiatives for SQL Server and SAP migrations to Snowflake by developing Python automation scripts to validate millions of records.",
+                "Engineered a data reconciliation system automatically compared data using primary key joins, precisely identifying and reporting all mismatched records and exact data variances.",
+                "Dramatically accelerated bug-resolution timelines for data quality, reducing issue resolution from 2-3 days to 4-5 hours during Snowflake migrations by providing developers with precise primary keys and discrepancy details.",
+                "Automated complex testing for SAP-to-Snowflake Supply Chain pipelines, ensuring 98% data accuracy across all transformation layers.",
+                "Enhanced migration speed and reliability by establishing an end-to-end computerized validation process, eliminating need for manual record-by-record checks."
+            ],
+            "companyUrl": "https://www.ecolab.com",
+            "logo": "assets/projects/ecolab.jpg"
+        },
+        {
+            "id": "4",
+            "title": "Data Engineering Intern",
+            "company": "Ecolab",
+            "location": "Bangalore, India",
+            "startDate": "January 2023",
+            "endDate": "April 2023",
+            "description": [
+                "Designed and built a regression automation tool in Python to validate data transformations across Snowflake layers (ILA, ILB, Base Model).",
+                "Delivered a key internship project having enhanced data quality assurance and was submitted as a final university thesis. Internship project covered 50% of final semester grade."
+            ],
+            "companyUrl": "https://www.ecolab.com",
+            "logo": "assets/projects/ecolab.jpg"
+        }
+    ]
+}
