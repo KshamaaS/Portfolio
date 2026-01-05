@@ -96,6 +96,22 @@
             ],
             "companyUrl": "https://www.ecolab.com",
             "logo": "assets/projects/ecolab.jpg"
+        },
+        {
+            "id": "5",
+            "title": "Bachelor of Technology in Computer Science",
+            "company": "MS Ramaiah University of Applied Sciences",
+            "location": "Bangalore, India",
+            "gpa": "3.99",
+            "startDate": "August 2019",
+            "endDate": "August 2023",
+            "description": [
+                "Graduated with Distinction and Class Honors (Top 5% of class)",
+                "Relevant coursework: Data Structures and Algorithms, Database Management Systems, Operating Systems, Computer Networks, Software Engineering",
+                "Completed a capstone project on 'Smart Healthcare System using IoT' involving real-time health monitoring and alert systems"
+            ],
+            "companyUrl": "https://www.msruas.ac.in",
+            "logo": "assets/projects/msruas.jpg"
         }
     ]
 }

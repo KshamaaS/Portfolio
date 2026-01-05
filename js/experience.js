@@ -102,13 +102,12 @@ function createExperienceEntry(experience) {
         html += '<p class="experience-company">' + experience.company + '</p>';
     }
     
-    // Location
-    html += '<p class="experience-location">' + experience.location + '</p>';
-    
-    // GPA on separate line (if available)
+    // Location with optional GPA (inline)
+    html += '<p class="experience-location">' + experience.location;
     if (experience.gpa) {
-        html += '<p class="experience-gpa">GPA: ' + experience.gpa + '</p>';
+        html += ' <span class="experience-gpa">• GPA: ' + experience.gpa + '</span>';
     }
+    html += '</p>';
     
     html += '</div>'; // Close experience-title-info
     html += '</div>'; // Close experience-title-section
