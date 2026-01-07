@@ -1,226 +1,87 @@
-{
-    "_comment": "============================================================",
-    "_instructions": [
-        "HOW TO MANAGE YOUR PROJECTS",
-        "============================================================",
-        "",
-        "This file contains all my projects. Edit this file to add,",
-        "remove, or update projects on my portfolio.",
-        "",
-        "IMPORTANT: This is a JSON file. Be careful with commas!",
-        "- Each project needs a comma after it EXCEPT the last one",
-        "- Each field needs a comma after it EXCEPT the last one in that project",
-        "",
-        "REQUIRED FIELDS FOR EACH PROJECT:",
-        "- id: A unique identifier (any text, no spaces)",
-        "- title: The project name",
-        "- type: Either 'personal' or 'work'",
-        "- description: A short description (2-3 sentences)",
-        "- technologies: An array of tech used ['Tech1', 'Tech2']",
-        "",
-        "OPTIONAL FIELDS:",
-        "- image: Path to project image (put images in assets/projects/)",
-        "- github: GitHub URL (typically for personal projects)",
-        "- liveUrl: Live demo URL",
-        "",
-        "TO ADD A PROJECT: Copy one of the examples below and modify it",
-        "TO REMOVE A PROJECT: Delete the entire {...} block (and fix commas)",
-        "",
-        "============================================================"
-    ],
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | Kshamaa Suresh</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     
-    "projects": [
-        {
-    "id": "Project-1",
-    "title": "Skincare suggestor",
-    "type": "Personal",
-    "description": [
-        "Built LLM-based skincare product recommendation system",
-        "Accepts user questions and provides personalized suggestions",
-        "Developed for Applied Machine Learning course"
-    ],
-    "technologies": ["Python","Pytorch","Tensorflow"],
-    "github": "https://github.com/AML-GGYK/DermaLLM",
-    "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/skincare-agent"
-},
-{
-    "id": "Project-2",
-    "title": "Colorectal cancer Study",
-    "type": "Personal",
-    "description": [
-        "Analyzed colorectal cancer data to derive insights",
-        "Created visualizations and plots for data exploration",
-        "Built for Data Visualization course"
-    ],
-    "technologies": ["Python","R"],
-    "github": "https://github.com/KshamaaS/colorectal-cancer-analysis",
-    "liveUrl": "https://kshamaas.github.io/colorectal-cancer-analysis/"
-},
-{
-    "id": "Project-3",
-    "title": "Book recommender",
-    "type": "Personal",
-    "description": [
-        "Built LLM-based book recommendation system",
-        "Accepts user questions and provides personalized suggestions",
-        "I am an avid reader and sometimes struggle to find books that match my interests. This project was developed to address that need."
-    ],
-    "technologies": ["Python","Pytorch","Tensorflow"],
-    "github": "https://github.com/KshamaaS/Book_Recommender_Agent",
-    "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/book-recommendation-agent"
-},
-{
-    "id": "Project-4",
-    "title": "Random Password Generator",
-    "type": "Personal",
-    "description": [
-        "Generates random passwords",
-        "Built using HTML, CSS, and JavaScript",
-        "Developed during undergraduate studies"
-    ],
-    "technologies": ["HTML","CSS","JavaScript"],
-    "github": "https://github.com/KshamaaS/Random-Password-Generator"
-},
-{
-    "id": "Project-5",
-    "title": "Notepad application",
-    "type": "Personal",
-    "description": [
-        "Simple notepad application",
-        "Built with Python",
-        "Developed during undergraduate studies"
-    ],
-    "technologies": ["Python"],
-    "github": "https://github.com/KshamaaS/Notepad"
-},
-{
-    "id": "Project-6",
-    "title": "Calculator application",
-    "type": "Personal",
-    "description": [
-        "Simple calculator application",
-        "Built with Python",
-        "Developed during undergraduate studies"
-    ],
-    "technologies": ["Python"],
-    "github": "https://github.com/KshamaaS/Calculator"
-},
-{
-    "id": "Project-7",
-    "title": "Tic tac toe",
-    "type": "Personal",
-    "description": [
-        "Tic-tac-toe game",
-        "Built with Python",
-        "Developed during undergraduate studies"
-    ],
-    "technologies": ["Python"],
-    "github": "https://github.com/KshamaaS/TicTacToeGame"
-},
-{
-    "id": "Project-8",
-    "title": "Generative AI for Data Analytics",
-    "type": "Work",
-    "description": [
-        "Engineered Generative AI data validation systems using Claude API on Databricks and Cortex AI with Mistral-large2 on Snowflake",
-        "Achieved 70% better accuracy in detecting data anomalies",
-        "Built NLP pipelines to process AI outputs into structured tables",
-        "Automated ThoughtSpot reports for business users",
-        "Deployed interactive Streamlit dashboards on Azure enabling self-service visualization",
-        "Reduced manual validation burden by 80%"
-    ],
-    "technologies": ["Python", "Databricks", "Snowflake", "Tensorflow", "Pytorch", "Transformers","SQL"]
-},
-{
-    "id": "Project-9",
-    "title": "Email Alerting System",
-    "type": "Work",
-    "description": [
-        "Developed automated pipeline monitoring system using Python within Snowflake",
-        "Queried execution logs and tracked daily status of all data pipelines",
-        "Engineered proactive email alerts notifying stakeholders of failures within 120 seconds",
-        "Included specific job names and timestamps in alerts",
-        "Enhanced operational visibility and reduced downtime",
-        "Eliminated manual log checks and accelerated response times"
-    ],
-    "technologies": ["Python","Snowflake","SQL"]
-},
-{
-    "id": "Project-10",
-    "title": "GBS Reporting",
-    "type": "Work",
-    "description": [
-        "Architected centralized Snowflake stage environment consolidating data from multiple subject area tables",
-        "Streamlined access to vital business metrics for the GBS team",
-        "Developed automated ThoughtSpot dashboards for daily source-to-target data comparisons",
-        "Enabled real-time error detection",
-        "Enhanced data integrity and reduced manual reporting effort",
-        "Implemented self-service analytics, eliminating tedious daily table iteration"
-    ],
-    "technologies": ["Python","Snowflake","SQL","Thoughtspot"]
-},
-{
-    "id": "Project-11",
-    "title": "View Regression Automation",
-    "type": "Work",
-    "description": [
-        "Constructed automated regression testing framework in Python for data integrity certification",
-        "Monitored data integrity across multiple Snowflake layers (ILA, ILB, Base Model)",
-        "Engineered monitoring for over 1,000 production database views",
-        "Automatically categorized views by project and logged performance impacts",
-        "Developed user-friendly tool generating validation queries from table names alone",
-        "Simplified testing for non-technical users",
-        "Recognized as final university thesis"
-    ],
-    "technologies": ["Python","Snowflake","SQL"]
-},
-{
-    "id": "Project-12",
-    "title": "IoT based Smart Irrigation System",
-    "type": "Personal",
-    "description": [
-        "Formulated and prototyped smart IoT irrigation system using NodeMCU ESP8266",
-        "Integrated soil moisture and DHT11 sensors for real-time environmental data collection",
-        "Transmitted data to cloud interface for monitoring",
-        "Engineered automated watering solution optimizing agricultural water usage",
-        "Supported sustainability goals through data-driven triggers",
-        "Published system architecture and results in IFERP journal",
-        "Contributed to IoT applications in sustainable agriculture"
-    ],
-    "technologies": ["Python"]
-},
-{
-    "id": "Project-13",
-    "title": "Tiny Transformer for Shakespeare Text Generation",
-    "type": "Personal",
-    "description": [
-        "Built Tiny Transformer architecture for next-token prediction on Shakespeare text corpus",
-        "Implemented WordPiece tokenization with vocabulary size of 500 tokens",
-        "Designed transformer with 3 layers, 8 attention heads, and 128 hidden dimensions (722,676 parameters)",
-        "Achieved validation perplexity of 45.25 (11x better than random guessing)",
-        "Trained using GPU acceleration with cosine annealing learning rate schedule",
-        "Generated coherent Shakespeare-style text samples with temperature-based sampling",
-        "Visualized attention patterns across multiple heads and layers",
-        "Developed for Applied Machine Learning course"
-    ],
-    "technologies": ["Python", "PyTorch", "Transformers"],
-    "github": "https://github.com/KshamaaS/TinyTransformer"
-},
-{
-    "id": "Project-14",
-    "title": "Drosophila Larval Brain Network Analysis",
-    "type": "Personal",
-    "description": [
-        "Performed community detection on Drosophila connectome using Louvain algorithm and label propagation",
-        "Conducted spatial distribution analysis using K-nearest neighbors, Hopkins statistic, and Ripley's K function",
-        "Implemented multi-scale analysis comparing network structure and spatial organization across neural communities",
-        "Optimized code with vectorized operations using NumPy and efficient nearest-neighbor search with ball trees",
-        "Analyzed synaptic distributions to detect clustering patterns and functional specialization",
-        "Monitored over 1,000 production database views for performance impacts",
-        "Visualized community structures, spatial distributions, and multi-scale patterns"
-    ],
-    "technologies": ["Python", "NetworkX", "scikit-learn", "SciPy", "NumPy", "Pandas"],
-    "github": "https://github.com/KshamaaS/Drosophila-Larval-Brain-Network-Analysis"
-}
-    ]
-}
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Kshamaa Suresh</a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">About</a></li>
+                <li><a href="experience.html">Experience and Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="publications.html" class="active">Publications</a></li>
+                <li><a href="assets/resume.pdf" target="_blank" class="nav-resume">Resume</a></li>
+            </ul>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Publications</h1>
+            <p>My books and research papers</p>
+        </div>
+    </header>
+
+    <!-- 
+    =====================================================
+    PUBLICATIONS SECTION
+    - Publications are stored in "data/publications.json"
+    - The JavaScript file (js/publications.js) reads that file
+    - It automatically creates publication entries and puts them here
+    
+    TO ADD/EDIT/REMOVE PUBLICATIONS:
+    - Open "data/publications.json"
+    - Follow the instructions there
+    - Save the file
+    - Refresh the page to see changes
+    =====================================================
+    -->
+    <main class="publications-page">
+        <div class="container">
+            
+            <!-- Filter buttons to switch between publication types -->
+            <div class="publication-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="Book">Books</button>
+                <button class="filter-btn" data-filter="Research">Research</button>
+            </div>
+            
+            <!-- Publications will be automatically inserted here by JavaScript -->
+            <div class="publications-list" id="publications-container">
+                <p class="loading-message">Loading publications...</p>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <!-- UPDATE: Change the year and your name -->
+            <p>&copy; Kshamaa Suresh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript files -->
+    <script src="js/main.js"></script>
+    <script src="js/publications.js"></script>
+</body>
+</html>
