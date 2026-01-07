@@ -58,6 +58,19 @@
 },
 {
     "id": "Project-3",
+    "title": "Book recommender",
+    "type": "Personal",
+    "description": [
+        "Built LLM-based book recommendation system",
+        "Accepts user questions and provides personalized suggestions",
+        "I am an avid reader and sometimes struggle to find books that match my interests. This project was developed to address that need."
+    ],
+    "technologies": ["Python","Pytorch","Tensorflow"],
+    "github": "https://github.com/KshamaaS/Book_Recommender_Agent",
+    "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/book-recommendation-agent"
+},
+{
+    "id": "Project-4",
     "title": "Random Password Generator",
     "type": "Personal",
     "description": [
@@ -69,7 +82,7 @@
     "github": "https://github.com/KshamaaS/Random-Password-Generator"
 },
 {
-    "id": "Project-4",
+    "id": "Project-5",
     "title": "Notepad application",
     "type": "Personal",
     "description": [
@@ -81,7 +94,7 @@
     "github": "https://github.com/KshamaaS/Notepad"
 },
 {
-    "id": "Project-5",
+    "id": "Project-6",
     "title": "Calculator application",
     "type": "Personal",
     "description": [
@@ -93,7 +106,7 @@
     "github": "https://github.com/KshamaaS/Calculator"
 },
 {
-    "id": "Project-6",
+    "id": "Project-7",
     "title": "Tic tac toe",
     "type": "Personal",
     "description": [
@@ -105,7 +118,7 @@
     "github": "https://github.com/KshamaaS/TicTacToeGame"
 },
 {
-    "id": "Project-7",
+    "id": "Project-8",
     "title": "Generative AI for Data Analytics",
     "type": "Work",
     "description": [
@@ -119,7 +132,7 @@
     "technologies": ["Python", "Databricks", "Snowflake", "Tensorflow", "Pytorch", "Transformers","SQL"]
 },
 {
-    "id": "Project-8",
+    "id": "Project-9",
     "title": "Email Alerting System",
     "type": "Work",
     "description": [
@@ -133,7 +146,7 @@
     "technologies": ["Python","Snowflake","SQL"]
 },
 {
-    "id": "Project-9",
+    "id": "Project-10",
     "title": "GBS Reporting",
     "type": "Work",
     "description": [
@@ -147,7 +160,7 @@
     "technologies": ["Python","Snowflake","SQL","Thoughtspot"]
 },
 {
-    "id": "Project-10",
+    "id": "Project-11",
     "title": "View Regression Automation",
     "type": "Work",
     "description": [
@@ -162,7 +175,7 @@
     "technologies": ["Python","Snowflake","SQL"]
 },
 {
-    "id": "Project-11",
+    "id": "Project-12",
     "title": "IoT based Smart Irrigation System",
     "type": "Personal",
     "description": [
@@ -177,7 +190,7 @@
     "technologies": ["Python"]
 },
 {
-    "id": "Project-12",
+    "id": "Project-13",
     "title": "Tiny Transformer for Shakespeare Text Generation",
     "type": "Personal",
     "description": [
@@ -194,7 +207,7 @@
     "github": "https://github.com/KshamaaS/TinyTransformer"
 },
 {
-    "id": "Project-13",
+    "id": "Project-14",
     "title": "Drosophila Larval Brain Network Analysis",
     "type": "Personal",
     "description": [
