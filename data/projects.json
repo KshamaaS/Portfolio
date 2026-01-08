@@ -32,7 +32,7 @@
     "projects": [
         {
     "id": "Project-1",
-    "title": "Skincare suggestor",
+    "title": "Skincare rec",
     "type": "Personal",
     "description": [
         "Built LLM-based skincare product recommendation system",
