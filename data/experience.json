@@ -33,6 +33,19 @@
     "experiences": [
         {
             "id": "1",
+            "title": "Data Analyst Graduate Assistant",
+            "company": "Barnard College (Columbia University)",
+            "location": "New York, NY",
+            "startDate": "January 2026",
+            "endDate": "Present",
+            "description": [
+                "Research position analyzing Drosophila connectome data under Dr. Gabrielle Gutierrez. Responsibilities include performing statistical and network analyses on neural connectivity data, implementing spatial analysis methods (k-nearest neighbor algorithms, centroid models, distribution models), applying community detection algorithms (modularity maximization, stochastic block models), developing Python-based analysis pipelines, consolidating and optimizing existing research code, and documenting all processes to meet reproducible research standards. "
+            ],
+            "companyUrl": "https://barnard.edu/",
+            "logo": "assets/projects/barnard.jpg"
+        },
+        {
+            "id": "2",
             "title": "Master of Science in Data Science",
             "company": "Columbia University",
             "location": "New York, NY",
@@ -51,7 +64,7 @@
             "logo": "assets/projects/columbia.jpg"
         },
         {
-            "id": "2",
+            "id": "3",
             "title": "Associate Business Process Analyst",
             "company": "Ecolab",
             "location": "Bangalore, India",
@@ -68,7 +81,7 @@
             "logo": "assets/projects/ecolab.jpg"
         },
         {
-            "id": "3",
+            "id": "4",
             "title": "Associate Data Engineer",
             "company": "Ecolab",
             "location": "Bangalore, India",
@@ -85,7 +98,7 @@
             "logo": "assets/projects/ecolab.jpg"
         },
         {
-            "id": "4",
+            "id": "5",
             "title": "Data Engineering Intern",
             "company": "Ecolab",
             "location": "Bangalore, India",
@@ -99,7 +112,7 @@
             "logo": "assets/projects/ecolab.jpg"
         },
         {
-            "id": "5",
+            "id": "6",
             "title": "Bachelor of Technology in Computer Science",
             "company": "MS Ramaiah University of Applied Sciences",
             "location": "Bangalore, India",
