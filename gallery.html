@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Gallery | Kshamaa Suresh</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Kshamaa Suresh</a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">About</a></li>
+                <li><a href="experience.html">Experience and Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="assets/resume.pdf" target="_blank" class="nav-resume">Resume</a></li>
+            </ul>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Personal Gallery 📸</h1>
+            <p>A little insight into me and what makes me!</p>
+        </div>
+    </header>
+
+    <main class="gallery-page">
+        <div class="container">
+            
+            <!-- 
+            =====================================================
+            PHOTO GALLERY
+            
+            TO ADD PHOTOS:
+            1. Add photos to the assets/gallery folder
+            2. Name them: gallery-1.jpg, gallery-2.jpg, etc.
+            3. Update the src attributes below
+            4. Optionally add captions in the alt text
+            =====================================================
+            -->
+            
+            <div class="gallery-grid">
+                
+                <!-- Photo 1 -->
+                <div class="gallery-item">
+                    <img src="assets/gallery/gallery-1.png" 
+                         alt="First day at Columbia University" 
+                         class="gallery-image"
+                         data-index="0">
+                </div>
+                
+                <!-- Photo 2 -->
+                <div class="gallery-item">
+                    <img src="assets/gallery/gallery-2.jpeg" 
+                         alt="My best friend - Shunti" 
+                         class="gallery-image"
+                         data-index="1">
+                </div>
+                
+                <!-- Photo 3 -->
+                <div class="gallery-item">
+                    <img src="assets/gallery/gallery-3.jpg" 
+                         alt="My debut book - A Memo of Memories" 
+                         class="gallery-image"
+                         data-index="2">
+                </div>
+                
+                <!-- Photo 4 -->
+                <div class="gallery-item">
+                    <img src="assets/gallery/gallery-4.JPG" 
+                         alt="New York and me" 
+                         class="gallery-image"
+                         data-index="3">
+                </div>
+                
+                <!-- Photo 5 -->
+                <div class="gallery-item">
+                    <img src="assets/gallery/gallery-5.jpeg" 
+                         alt="Last day at Ecolab" 
+                         class="gallery-image"
+                         data-index="4">
+                </div>
+                
+                <!-- Photo 6 -->
+                <div class="gallery-item">
+                    <img src="assets/gallery/gallery-6.png" 
+                         alt="The found family" 
+                         class="gallery-image"
+                         data-index="5">
+                </div>
+                
+                <!-- Photo 7 -->
+                <div class="gallery-item">
+                    <img src="assets/gallery/gallery-7.png" 
+                         alt="Columbia at night" 
+                         class="gallery-image"
+                         data-index="6">
+                </div>
+                
+                <!-- Photo 8 -->
+                <div class="gallery-item">
+                    <img src="assets/gallery/gallery-8.png" 
+                         alt="DSI at Columbia" 
+                         class="gallery-image"
+                         data-index="7">
+                </div>
+                
+                <!-- Photo 9 -->
+                <div class="gallery-item">
+                    <img src="assets/gallery/gallery-9.png" 
+                         alt="The DSI Fam" 
+                         class="gallery-image"
+                         data-index="8">
+                </div>
+                
+                <!-- Photo 10 -->
+                <div class="gallery-item">
+                    <img src="assets/gallery/gallery-10.png" 
+                         alt="Halloween 2025" 
+                         class="gallery-image"
+                         data-index="9">
+                </div>
+                
+            </div>
+            
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+        <button class="lightbox-prev" aria-label="Previous image">&#10094;</button>
+        <button class="lightbox-next" aria-label="Next image">&#10095;</button>
+        <img src="" alt="" class="lightbox-image" id="lightbox-image">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Kshamaa Suresh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript files -->
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

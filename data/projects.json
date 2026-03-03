@@ -221,6 +221,19 @@
     ],
     "technologies": ["Python", "NetworkX", "scikit-learn", "SciPy", "NumPy", "Pandas"],
     "github": "https://github.com/KshamaaS/Drosophila-Larval-Brain-Network-Analysis"
+},
+{
+    "id": "Project-14",
+    "title": "Multiome UMAP Project",
+    "type": "Personal",
+    "description": [
+        "Identified naive concatenation and WNN fusion methods fail to enforce cross-modal consistency between RNA and ATAC profiles in multiome data across 19,303 genes.",
+        "Discovered existing integration approaches lose biological signal across 34,774 cells, 19,303 genes, and 344,592 ATAC peaks due to modality imbalance",
+        "Engineered a novel UMAP extension with a Coupling Regularizer boosted cross-modal edges by 50%, achieving 58% improvement in Silhouette Score (−0.0123 vs −0.0293) over naive concatenation.",
+        "Implemented a memory-efficient sparse pipeline reducing RAM requirements by 98.8% (96GB → 1.2GB), enabling analysis of 34,774-cell dataset on free Google Colab."
+    ],
+    "technologies": ["Python", "scanpy", "muon / MuData-learn", "UMAP", "NumPy", "Pandas", "Matplotlib"],
+    "github": "https://github.com/KshamaaS/Multiome_UMAP_Project"
 }
     ]
 }
