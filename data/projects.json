@@ -234,6 +234,19 @@
     ],
     "technologies": ["Python", "scanpy", "muon / MuData-learn", "UMAP", "NumPy", "Pandas", "Matplotlib"],
     "github": "https://github.com/KshamaaS/Multiome_UMAP_Project"
+},
+{
+    "id": "Project-15",
+    "title": "React Agent Langchain",
+    "type": "Personal",
+    "description": [
+        "Built a ReAct (Reasoning + Acting) agent using LangChain and GPT-4 that autonomously chains web search, item comparison, and text analysis tools to answer complex, multi-step queries — implementing the architecture from Yao et al. (ICLR 2023).",
+        "Designed three custom LLM-powered tools — a SerpAPI-backed real-time search tool, a structured side-by-side comparison tool, and an analysis tool that extracts key takeaways and recommendations — integrated into a zero-shot reasoning loop.",
+        "Deployed a Streamlit web app with live step-by-step reasoning traces (Thought → Action → Observation), exposing the agent publicly via a Cloudflare tunnel from Google Colab using OpenRouter for cost-free LLM routing.",
+        "Applied prompt engineering techniques including custom PromptTemplates for each tool and the standard ReAct prompt template, enabling reliable tool-selection and output formatting across multi-turn reasoning chains."
+    ],
+    "technologies": ["Python", "LangChain", "Streamlit", "OpenRouter", "SerpAPI", "Google Colab", "Cloudflare Tunnel"],
+    "github": "https://github.com/KshamaaS/React-agent-langchain"
 }
     ]
 }
