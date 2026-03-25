@@ -236,17 +236,17 @@
     "github": "https://github.com/KshamaaS/Multiome_UMAP_Project"
 },
 {
-    "id": "Project-15",
-    "title": "React Agent Langchain",
+    "id": "Project-16",
+    "title": "Coaching App",
     "type": "Personal",
     "description": [
-        "Built a ReAct (Reasoning + Acting) agent using LangChain and GPT-4 that autonomously chains web search, item comparison, and text analysis tools to answer complex, multi-step queries — implementing the architecture from Yao et al. (ICLR 2023).",
-        "Designed three custom LLM-powered tools — a SerpAPI-backed real-time search tool, a structured side-by-side comparison tool, and an analysis tool that extracts key takeaways and recommendations — integrated into a zero-shot reasoning loop.",
-        "Deployed a Streamlit web app with live step-by-step reasoning traces (Thought → Action → Observation), exposing the agent publicly via a Cloudflare tunnel from Google Colab using OpenRouter for cost-free LLM routing.",
-        "Applied prompt engineering techniques including custom PromptTemplates for each tool and the standard ReAct prompt template, enabling reliable tool-selection and output formatting across multi-turn reasoning chains."
+        "Built an end-to-end LLM-driven coaching app with a two-stage retrieval pipeline — BM25 keyword search for candidate retrieval followed by Mistral-7B re-ranking via the HuggingFace Inference API — returning the top 5 exercises with relevance explanations.",
+"Designed a SQLite-backed exercise database with a pre-built search_text column for efficient BM25 indexing, and wrote a structured LLM prompt using Mistral's instruction format to return ranked JSON output with graceful fallback handling.",
+"Deployed a Streamlit frontend on HuggingFace Spaces with example query buttons, per-result metadata cards, and live LLM reasoning displayed inline — built entirely on a free stack with zero infrastructure cost.",
+"Proposed a personalization layer using onboarding signals (goal, injury history, equipment, difficulty, intensity) to apply hard SQL filters at retrieval time and inject user context into the re-ranking prompt, drawing on cold-start patterns from Spotify and Netflix recommendation systems."
     ],
-    "technologies": ["Python", "LangChain", "Streamlit", "OpenRouter", "SerpAPI", "Google Colab", "Cloudflare Tunnel"],
-    "github": "https://github.com/KshamaaS/React-agent-langchain"
+    "technologies": ["Python", "Streamlit", "SQLite", "BM25", "HuggingFace Inference API", "Mistral-7B", "HuggingFace Spaces"],
+    "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/coaching-app"
 }
     ]
 }
