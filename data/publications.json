@@ -69,6 +69,17 @@
             "description": "Developed a smart IoT irrigation system using sensor technology to optimize agricultural water usage, supporting sustainability goals and reducing waste through automated, data-driven triggers.",
             "url": "https://ijercse.com/viewabstract.php?id=16361&volume=Volume10&issue=Issue7",
             "pdf": "https://www.technoarete.org/common_abstract/pdf/IJERCSE/v10/i7/Ext_52304.pdf"
+        },
+        {
+            "id": "Conference-2",
+            "title": "Relating Network-level organization to synapse localization",
+            "type": "Research",
+            "authors": ["Gabrielle J. Gutierrez", "Pablo San Francisco", "Kshamaa Suresh"],
+            "year": "2026",
+            "conference": "Cold Spring Harbor Laboratory",
+            "description": "(Page 68) Using network science and statistical modeling on the Drosophila connectome, we found that densely interconnected groups of presynaptic neurons — identified via community detection — tend to localize their synapses together onto target neurons' dendrites, suggesting that network-level connectivity structure predicts nanoscale synaptic organization with implications for dendritic computation.",
+            "url": "https://meetings.cshl.edu/posters/circuits26/Circuits2026_AbstractBook.pdf",
+            "pdf": "assets/publications/Poster for conference 2.pdf"
         }
     ]
 }
