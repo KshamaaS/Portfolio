@@ -98,8 +98,10 @@
             "title": "SkinWise – RAG Skincare Recommendation System",
             "type": "Personal",
             "description": [
-                "Built end-to-end LLM skincare consultant processing natural language queries over 500+ products using semantic vector retrieval — reduced product discovery from manual browsing to a single query with sub-second latency.",
-                "Stack: LangChain, ChromaDB, HuggingFace embeddings, PyTorch, Streamlit. Deployed live on HuggingFace Spaces."
+                "Problem: Building a skincare recommendation system that works in production on a zero-cost stack — HuggingFace Spaces free tier has strict memory limits that most ML demos ignore until they crash.",
+                "Architecture decision: Used LangChain + ChromaDB for semantic vector retrieval over 500+ products, with a Streamlit frontend for natural language query input — prioritized retrieval quality over model complexity given infrastructure constraints.",
+                "What broke: Three separate failure points — import type mismatches caused silent crashes on deployment; the sentiment analysis model was too heavy for free-tier memory and kept killing the process; app.py crashed repeatedly until the live sentiment model was replaced with a pre-computed CSV, cutting memory footprint enough to run stably.",
+                "Metric: Reduced product discovery from manual browsing to a single natural language query with sub-second latency across 500+ products — deployed and running on a free stack."
             ],
             "technologies": ["Python", "LangChain", "ChromaDB", "HuggingFace", "PyTorch", "Streamlit"],
             "github": "https://github.com/AML-GGYK/DermaLLM",
