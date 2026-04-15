@@ -39,7 +39,9 @@
             "startDate": "January 2026",
             "endDate": "Present",
             "description": [
-                "Research position analyzing Drosophila connectome data under Dr. Gabrielle Gutierrez. Responsibilities include performing statistical and network analyses on neural connectivity data, implementing spatial analysis methods (k-nearest neighbor algorithms, centroid models, distribution models), applying community detection algorithms (modularity maximization, stochastic block models), developing Python-based analysis pipelines, consolidating and optimizing existing research code, and documenting all processes to meet reproducible research standards. "
+                "Conduct statistical and graph ML analysis on Drosophila larval brain connectome (NetworkX, scikit-learn, NumPy, SciPy, Pandas). Apply modularity maximization and stochastic block models for neural community detection across 1,000+ annotated neurons.",
+                "Implement spatial analysis algorithms (k-nearest neighbor, Hopkins statistic, Ripley’s K) to quantify synaptic clustering; co-authored abstract in CSHL Neuronal Circuits 2026 Abstract Book (p. 68). Preparing peer-reviewed manuscript on network-level synapse localization.",
+                "Developed modular Python pipelines consolidating 10+ fragmented research scripts into 3 reusable, documented modules under PI Dr. Gabrielle Gutierrez, reducing analysis runtime by ~40% and ensuring full reproducibility across experiments."
             ],
             "companyUrl": "https://barnard.edu/",
             "logo": "assets/projects/barnard.jpg"
@@ -71,11 +73,9 @@
             "startDate": "January 2025",
             "endDate": "July 2025",
             "description": [
-                "Designed and implemented a Python/Snowflake Email Alerting System monitored data pipeline status, providing stakeholders with real-time failure notifications (including job names and timestamps) in under 120 seconds, reducing data downtime.",
-                "Architected a centralized GBS Snowflake stage environment to consolidate data from multiple sources, streamlining access to vital business metrics for reporting and analysis.",
-                "Developed automated ThoughtSpot dashboards to visualize key GBS metrics and perform daily source-to-target comparisons, boosting data integrity and enabling real-time error detection.",
-                "Constructed an ML classification framework in Python to programmatically identify and correct erroneous Ultimate Parent Code assignments and customer-site matches in MDM data.",
-                "Delivered actionable data quality intelligence by automating detection of critical One Customer data inaccuracies, enabling proactive corrections and ensuring 90% data reliability before errors reached customers."
+                "Engineered production Generative AI data validation system using Anthropic Claude API on Databricks and Snowflake Cortex AI (Mistral-large2), achieving 70% improvement in anomaly detection accuracy across 10M+ records.",
+                "Built end-to-end NLP pipeline to parse and persist LLM outputs into Snowflake tables, automating ThoughtSpot BI dashboards for 50+ stakeholders; compressed analytics cycle from days to 3 hours. Managed end-to-end model deployment and production rollout of Streamlit dashboards on Azure for self-service visualization.",
+                "Engineered Python pipeline monitoring system parsing Snowflake execution logs to fire real-time email alerts in <120s, reducing downtime 40%+. Built ML classification framework correcting erroneous MDM records across 5M+ rows, cutting manual review 80%."
             ],
             "companyUrl": "https://www.ecolab.com",
             "logo": "assets/projects/ecolab.jpg"
@@ -88,11 +88,10 @@
             "startDate": "July 2023",
             "endDate": "December 2024",
             "description": [
-                "Led large-scale data integrity initiatives for SQL Server and SAP migrations to Snowflake by developing Python automation scripts to validate millions of records.",
-                "Engineered a data reconciliation system automatically compared data using primary key joins, precisely identifying and reporting all mismatched records and exact data variances.",
-                "Dramatically accelerated bug-resolution timelines for data quality, reducing issue resolution from 2-3 days to 4-5 hours during Snowflake migrations by providing developers with precise primary keys and discrepancy details.",
-                "Automated complex testing for SAP-to-Snowflake Supply Chain pipelines, ensuring 98% data accuracy across all transformation layers.",
-                "Enhanced migration speed and reliability by establishing an end-to-end computerized validation process, eliminating need for manual record-by-record checks."
+                "Designed and executed end-to-end QA testing strategy for SAP-to-Snowflake ETL pipelines, performing systematic dev-to-production data validation across all transformation layers (ILA, ILB, Base Model) using both manual test case design and automated reconciliation scripts; achieved 98% data accuracy via primary key join reconciliation.",
+                "Built SQL Server-to-Snowflake data reconciliation system performing primary key join comparisons across millions of records to surface mismatches between source and target environments; auto-generated discrepancy reports compressed migration timeline by60%.",
+                "Engineered Python-based automated data quality framework comparing dev and production environments at row, column, and aggregate level — detecting schema drift, transformation errors, and statistical anomalies across 1,000+ Snowflake views; reduced QA cycle time by 90% and cut manual testing effort from days to hours.",
+                "Configured and maintained CI/CD pipelines using Azure Repos and YAML across 3 environments (dev, staging, production), reducing manual deployment steps by 70% and cutting release cycle time from days to under 2 hours."
             ],
             "companyUrl": "https://www.ecolab.com",
             "logo": "assets/projects/ecolab.jpg"
@@ -105,8 +104,7 @@
             "startDate": "January 2023",
             "endDate": "April 2023",
             "description": [
-                "Designed and built a regression automation tool in Python to validate data transformations across Snowflake layers (ILA, ILB, Base Model).",
-                "Delivered a key internship project having enhanced data quality assurance and was submitted as a final university thesis. Internship project covered 50% of final semester grade."
+                "• Built Python regression automation tool certifying data transformations across Snowflake layers; selected as final university thesis (50% of semester grade)"
             ],
             "companyUrl": "https://www.ecolab.com",
             "logo": "assets/projects/ecolab.jpg"

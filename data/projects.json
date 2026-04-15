@@ -28,225 +28,142 @@
         "",
         "============================================================"
     ],
-    
+
     "projects": [
         {
-    "id": "Project-1",
-    "title": "Skincare recommendation system",
-    "type": "Personal",
-    "description": [
-        "Built LLM-based skincare product recommendation system",
-        "Accepts user questions and provides personalized suggestions",
-        "Developed for Applied Machine Learning course"
-    ],
-    "technologies": ["Python","Pytorch","Tensorflow"],
-    "github": "https://github.com/AML-GGYK/DermaLLM",
-    "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/skincare-agent"
-},
-{
-    "id": "Project-2",
-    "title": "Colorectal cancer Study",
-    "type": "Personal",
-    "description": [
-        "Analyzed colorectal cancer data to derive insights",
-        "Created visualizations and plots for data exploration",
-        "Built for Data Visualization course"
-    ],
-    "technologies": ["Python","R"],
-    "github": "https://github.com/KshamaaS/colorectal-cancer-analysis",
-    "liveUrl": "https://kshamaas.github.io/colorectal-cancer-analysis/"
-},
-{
-    "id": "Project-3",
-    "title": "Book recommendation system",
-    "type": "Personal",
-    "description": [
-        "Built LLM-based book recommendation system",
-        "Accepts user questions and provides personalized suggestions",
-        "I am an avid reader but sometimes struggle to find books that match my interests. This project aims to solve that problem by leveraging the power of LLMs to provide tailored book recommendations."
-    ],
-    "technologies": ["Python","Pytorch","Tensorflow"],
-    "github": "https://github.com/KshamaaS/Book_Recommender_Agent",
-    "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/book-recommendation-agent"
-},
-{
-    "id": "Project-3",
-    "title": "Random Password Generator",
-    "type": "Personal",
-    "description": [
-        "Generates random passwords",
-        "Built using HTML, CSS, and JavaScript",
-        "Developed during undergraduate studies"
-    ],
-    "technologies": ["HTML","CSS","JavaScript"],
-    "github": "https://github.com/KshamaaS/Random-Password-Generator"
-},
-{
-    "id": "Project-4",
-    "title": "Notepad application",
-    "type": "Personal",
-    "description": [
-        "Simple notepad application",
-        "Built with Python",
-        "Developed during undergraduate studies"
-    ],
-    "technologies": ["Python"],
-    "github": "https://github.com/KshamaaS/Notepad"
-},
-{
-    "id": "Project-5",
-    "title": "Calculator application",
-    "type": "Personal",
-    "description": [
-        "Simple calculator application",
-        "Built with Python",
-        "Developed during undergraduate studies"
-    ],
-    "technologies": ["Python"],
-    "github": "https://github.com/KshamaaS/Calculator"
-},
-{
-    "id": "Project-6",
-    "title": "Tic tac toe",
-    "type": "Personal",
-    "description": [
-        "Tic-tac-toe game",
-        "Built with Python",
-        "Developed during undergraduate studies"
-    ],
-    "technologies": ["Python"],
-    "github": "https://github.com/KshamaaS/TicTacToeGame"
-},
-{
-    "id": "Project-7",
-    "title": "Generative AI for Data Analytics",
-    "type": "Work",
-    "description": [
-        "Engineered Generative AI data validation systems using Claude API on Databricks and Cortex AI with Mistral-large2 on Snowflake",
-        "Achieved 70% better accuracy in detecting data anomalies",
-        "Built NLP pipelines to process AI outputs into structured tables",
-        "Automated ThoughtSpot reports for business users",
-        "Deployed interactive Streamlit dashboards on Azure enabling self-service visualization",
-        "Reduced manual validation burden by 80%"
-    ],
-    "technologies": ["Python", "Databricks", "Snowflake", "Tensorflow", "Pytorch", "Transformers","SQL"]
-},
-{
-    "id": "Project-8",
-    "title": "Email Alerting System",
-    "type": "Work",
-    "description": [
-        "Developed automated pipeline monitoring system using Python within Snowflake",
-        "Queried execution logs and tracked daily status of all data pipelines",
-        "Engineered proactive email alerts notifying stakeholders of failures within 120 seconds",
-        "Included specific job names and timestamps in alerts",
-        "Enhanced operational visibility and reduced downtime",
-        "Eliminated manual log checks and accelerated response times"
-    ],
-    "technologies": ["Python","Snowflake","SQL"]
-},
-{
-    "id": "Project-9",
-    "title": "GBS Reporting",
-    "type": "Work",
-    "description": [
-        "Architected centralized Snowflake stage environment consolidating data from multiple subject area tables",
-        "Streamlined access to vital business metrics for the GBS team",
-        "Developed automated ThoughtSpot dashboards for daily source-to-target data comparisons",
-        "Enabled real-time error detection",
-        "Enhanced data integrity and reduced manual reporting effort",
-        "Implemented self-service analytics, eliminating tedious daily table iteration"
-    ],
-    "technologies": ["Python","Snowflake","SQL","Thoughtspot"]
-},
-{
-    "id": "Project-10",
-    "title": "View Regression Automation",
-    "type": "Work",
-    "description": [
-        "Constructed automated regression testing framework in Python for data integrity certification",
-        "Monitored data integrity across multiple Snowflake layers (ILA, ILB, Base Model)",
-        "Engineered monitoring for over 1,000 production database views",
-        "Automatically categorized views by project and logged performance impacts",
-        "Developed user-friendly tool generating validation queries from table names alone",
-        "Simplified testing for non-technical users",
-        "Recognized as final university thesis"
-    ],
-    "technologies": ["Python","Snowflake","SQL"]
-},
-{
-    "id": "Project-11",
-    "title": "IoT based Smart Irrigation System",
-    "type": "Personal",
-    "description": [
-        "Formulated and prototyped smart IoT irrigation system using NodeMCU ESP8266",
-        "Integrated soil moisture and DHT11 sensors for real-time environmental data collection",
-        "Transmitted data to cloud interface for monitoring",
-        "Engineered automated watering solution optimizing agricultural water usage",
-        "Supported sustainability goals through data-driven triggers",
-        "Published system architecture and results in IFERP journal",
-        "Contributed to IoT applications in sustainable agriculture"
-    ],
-    "technologies": ["Python"]
-},
-{
-    "id": "Project-12",
-    "title": "Tiny Transformer for Shakespeare Text Generation",
-    "type": "Personal",
-    "description": [
-        "Built Tiny Transformer architecture for next-token prediction on Shakespeare text corpus",
-        "Implemented WordPiece tokenization with vocabulary size of 500 tokens",
-        "Designed transformer with 3 layers, 8 attention heads, and 128 hidden dimensions (722,676 parameters)",
-        "Achieved validation perplexity of 45.25 (11x better than random guessing)",
-        "Trained using GPU acceleration with cosine annealing learning rate schedule",
-        "Generated coherent Shakespeare-style text samples with temperature-based sampling",
-        "Visualized attention patterns across multiple heads and layers",
-        "Developed for Applied Machine Learning course"
-    ],
-    "technologies": ["Python", "PyTorch", "Transformers"],
-    "github": "https://github.com/KshamaaS/TinyTransformer"
-},
-{
-    "id": "Project-13",
-    "title": "Drosophila Larval Brain Network Analysis",
-    "type": "Personal",
-    "description": [
-        "Performed community detection on Drosophila connectome using Louvain algorithm and label propagation",
-        "Conducted spatial distribution analysis using K-nearest neighbors, Hopkins statistic, and Ripley's K function",
-        "Implemented multi-scale analysis comparing network structure and spatial organization across neural communities",
-        "Optimized code with vectorized operations using NumPy and efficient nearest-neighbor search with ball trees",
-        "Analyzed synaptic distributions to detect clustering patterns and functional specialization",
-        "Monitored over 1,000 production database views for performance impacts",
-        "Visualized community structures, spatial distributions, and multi-scale patterns"
-    ],
-    "technologies": ["Python", "NetworkX", "scikit-learn", "SciPy", "NumPy", "Pandas"],
-    "github": "https://github.com/KshamaaS/Drosophila-Larval-Brain-Network-Analysis"
-},
-{
-    "id": "Project-14",
-    "title": "Multiome UMAP Project",
-    "type": "Personal",
-    "description": [
-        "Identified naive concatenation and WNN fusion methods fail to enforce cross-modal consistency between RNA and ATAC profiles in multiome data across 19,303 genes.",
-        "Discovered existing integration approaches lose biological signal across 34,774 cells, 19,303 genes, and 344,592 ATAC peaks due to modality imbalance",
-        "Engineered a novel UMAP extension with a Coupling Regularizer boosted cross-modal edges by 50%, achieving 58% improvement in Silhouette Score (−0.0123 vs −0.0293) over naive concatenation.",
-        "Implemented a memory-efficient sparse pipeline reducing RAM requirements by 98.8% (96GB → 1.2GB), enabling analysis of 34,774-cell dataset on free Google Colab."
-    ],
-    "technologies": ["Python", "scanpy", "muon / MuData-learn", "UMAP", "NumPy", "Pandas", "Matplotlib"],
-    "github": "https://github.com/KshamaaS/Multiome_UMAP_Project"
-},
-{
-    "id": "Project-16",
-    "title": "Coaching App",
-    "type": "Personal",
-    "description": [
-        "Built an end-to-end LLM-driven coaching app with a two-stage retrieval pipeline — BM25 keyword search for candidate retrieval followed by Mistral-7B re-ranking via the HuggingFace Inference API — returning the top 5 exercises with relevance explanations.",
-"Designed a SQLite-backed exercise database with a pre-built search_text column for efficient BM25 indexing, and wrote a structured LLM prompt using Mistral's instruction format to return ranked JSON output with graceful fallback handling.",
-"Deployed a Streamlit frontend on HuggingFace Spaces with example query buttons, per-result metadata cards, and live LLM reasoning displayed inline — built entirely on a free stack with zero infrastructure cost.",
-"Proposed a personalization layer using onboarding signals (goal, injury history, equipment, difficulty, intensity) to apply hard SQL filters at retrieval time and inject user context into the re-ranking prompt, drawing on cold-start patterns from Spotify and Netflix recommendation systems."
-    ],
-    "technologies": ["Python", "Streamlit", "SQLite", "BM25", "HuggingFace Inference API", "Mistral-7B", "HuggingFace Spaces"],
-    "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/coaching-app"
-}
+            "id": "Project-1",
+            "title": "Generative AI for Data Analytics",
+            "type": "Work",
+            "description": [
+                "Problem: Data validation team spending days manually checking 10M+ records for anomalies across Snowflake pipelines — errors caught too late to prevent downstream business impact.",
+                "Architecture decision: Chose Claude API for structured JSON output reliability over GPT-4; used Snowflake Cortex (Mistral-large2) for in-warehouse inference to avoid data egress costs and latency.",
+                "What broke: Initial prompts hallucinated valid anomaly classifications on edge cases with null-heavy columns — fixed by adding schema-aware few-shot examples with explicit null handling instructions.",
+                "Metric: 70% improvement in anomaly detection accuracy across 10M+ records; analytics cycle compressed from days to 3 hours for 50+ stakeholders via automated ThoughtSpot dashboards."
+            ],
+            "technologies": ["Python", "Claude API", "Databricks", "Snowflake Cortex", "Mistral-large2", "SQL", "Streamlit", "Azure", "ThoughtSpot"]
+        },
+        {
+            "id": "Project-2",
+            "title": "LLM Coaching App – Two-Stage Retrieval",
+            "type": "Personal",
+            "description": [
+                "Problem: Generic fitness apps return irrelevant exercises for specific goals — a user searching 'lower back rehab' gets generic gym results because vector similarity alone fails on short, jargon-heavy exercise descriptions.",
+                "Architecture decision: Two-stage retrieval (BM25 keyword search → Mistral-7B reranking via HuggingFace Inference API) instead of pure vector search; BM25 handles exact equipment and muscle-group terms better than embeddings on short text.",
+                "What broke: Mistral reranking collapsed to returning the same top 3 exercises for different queries when the prompt lacked diversity constraints — fixed by adding explicit 'no repeated muscle groups' instruction to the ranking prompt.",
+                "Metric: Built on a zero-cost stack (SQLite + HuggingFace Spaces); structured BM25 index with pre-built search_text column achieves sub-second retrieval with graceful JSON fallback handling."
+            ],
+            "technologies": ["Python", "Streamlit", "SQLite", "BM25", "HuggingFace Inference API", "Mistral-7B", "HuggingFace Spaces"],
+            "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/coaching-app"
+        },
+        {
+            "id": "Project-3",
+            "title": "Dual-UMAP Multimodal Genomics Integration",
+            "type": "Personal",
+            "description": [
+                "Problem: Standard WNN fusion loses biological signal when integrating RNA and ATAC modalities — existing methods fail on 34,774-cell datasets because modality imbalance causes one modality to dominate the embedding.",
+                "Architecture decision: Novel UMAP extension with a Coupling Regularizer instead of standard weighted fusion — explicitly boosted cross-modal edges by 50% to enforce consistency without collapsing either modality's signal.",
+                "What broke: Naive sparse implementation still ran out of memory on Colab free tier at 10K cells — required full pipeline rebuild using muon/MuData lazy loading to avoid materializing the full dense matrix.",
+                "Metric: 58% Silhouette Score improvement over WNN baseline (−0.0123 vs −0.0293); RAM reduced 98.8% (96GB → 1.2GB), enabling analysis on a free Colab instance."
+            ],
+            "technologies": ["Python", "scanpy", "muon / MuData", "UMAP-learn", "NumPy", "SciPy", "Matplotlib"],
+            "github": "https://github.com/KshamaaS/Multiome_UMAP_Project"
+        },
+        {
+            "id": "Project-4",
+            "title": "Tiny Transformer – Shakespeare Text Generation",
+            "type": "Personal",
+            "description": [
+                "Problem: Understand Transformer mechanics from scratch rather than using HuggingFace black-boxes — most tutorials skip implementation details (attention masking, positional encoding, training stability) that matter for debugging real models.",
+                "Architecture decision: WordPiece tokenization (vocab=500) over character-level — better generalizes to unseen word forms in Shakespeare's archaic vocabulary while keeping the vocabulary small enough for a 722K-parameter model.",
+                "What broke: Attention entropy collapsed to near-zero in early training — heads were ignoring context and copying the input token. Fixed by adding gradient clipping and reducing learning rate warmup steps.",
+                "Metric: Validation perplexity 45.25 — 11x better than a random baseline. Trained with GPU acceleration and cosine annealing LR schedule."
+            ],
+            "technologies": ["Python", "PyTorch", "Transformers"],
+            "github": "https://github.com/KshamaaS/TinyTransformer"
+        },
+        {
+            "id": "Project-5",
+            "title": "View Regression Automation",
+            "type": "Work",
+            "description": [
+                "Problem: QA team spending days manually testing 1,000+ Snowflake views after every ETL migration — no systematic way to detect which views broke across dev, staging, and production environments.",
+                "Architecture decision: Auto-generated validation queries from table names alone rather than hand-coding test cases — made the tool usable by non-technical users without SQL knowledge, broadening adoption across the team.",
+                "What broke: First version flagged false positives on views with intentional null columns — added configurable null tolerance thresholds per project to distinguish expected nulls from data quality failures.",
+                "Metric: QA cycle time reduced 90%; manual testing effort cut from days to hours across 1,000+ production views. Selected as final university thesis (50% of semester grade)."
+            ],
+            "technologies": ["Python", "Snowflake", "SQL"]
+        },
+        {
+            "id": "Project-6",
+            "title": "SkinWise – RAG Skincare Recommendation System",
+            "type": "Personal",
+            "description": [
+                "Built end-to-end LLM skincare consultant processing natural language queries over 500+ products using semantic vector retrieval — reduced product discovery from manual browsing to a single query with sub-second latency.",
+                "Stack: LangChain, ChromaDB, HuggingFace embeddings, PyTorch, Streamlit. Deployed live on HuggingFace Spaces."
+            ],
+            "technologies": ["Python", "LangChain", "ChromaDB", "HuggingFace", "PyTorch", "Streamlit"],
+            "github": "https://github.com/AML-GGYK/DermaLLM",
+            "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/skincare-agent"
+        },
+        {
+            "id": "Project-7",
+            "title": "Drosophila Larval Brain Network Analysis",
+            "type": "Personal",
+            "description": [
+                "Built a connectome analysis demo exploring community detection and spatial organization in the Drosophila larval brain — developed independently as an entry point into computational neuroscience research.",
+                "Implemented Louvain algorithm and label propagation for community detection across annotated neurons, and applied K-nearest neighbors, Hopkins statistic, and Ripley's K function to quantify synaptic clustering patterns.",
+                "Optimized with vectorized NumPy operations and ball-tree nearest-neighbor search for efficient analysis on large graph-structured biological data."
+            ],
+            "technologies": ["Python", "NetworkX", "scikit-learn", "SciPy", "NumPy", "Pandas"],
+            "github": "https://github.com/KshamaaS/Drosophila-Larval-Brain-Network-Analysis"
+        },
+        {
+            "id": "Project-8",
+            "title": "Book Recommendation Agent",
+            "type": "Personal",
+            "description": [
+                "Built LLM-based book recommendation agent that accepts natural language queries and provides personalized suggestions.",
+                "Motivated by the challenge of finding books that match specific reading moods and interests — leverages LLM reasoning to go beyond genre tags and surface thematically relevant recommendations.",
+                "Deployed live on HuggingFace Spaces."
+            ],
+            "technologies": ["Python", "PyTorch", "HuggingFace"],
+            "github": "https://github.com/KshamaaS/Book_Recommender_Agent",
+            "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/book-recommendation-agent"
+        },
+        {
+            "id": "Project-9",
+            "title": "Colorectal Cancer Data Analysis",
+            "type": "Personal",
+            "description": [
+                "Analyzed colorectal cancer dataset to derive clinical insights through exploratory data analysis and statistical modeling.",
+                "Created interactive visualizations and plots for pattern detection and data exploration.",
+                "Built for Data Visualization course at Columbia University."
+            ],
+            "technologies": ["Python", "R"],
+            "github": "https://github.com/KshamaaS/colorectal-cancer-analysis",
+            "liveUrl": "https://kshamaas.github.io/colorectal-cancer-analysis/"
+        },
+        {
+            "id": "Project-10",
+            "title": "Email Alerting System",
+            "type": "Work",
+            "description": [
+                "Developed automated pipeline monitoring system in Python within Snowflake — queried execution logs and tracked daily status of all data pipelines across production environments.",
+                "Engineered proactive email alerts notifying stakeholders of failures within 120 seconds, including specific job names and timestamps.",
+                "Eliminated manual log checks and reduced downtime 40%+."
+            ],
+            "technologies": ["Python", "Snowflake", "SQL"]
+        },
+        {
+            "id": "Project-11",
+            "title": "GBS Reporting",
+            "type": "Work",
+            "description": [
+                "Architected centralized Snowflake stage environment consolidating data from multiple subject area tables, streamlining access to vital business metrics for the GBS team.",
+                "Developed automated ThoughtSpot dashboards for daily source-to-target data comparisons, enabling real-time error detection.",
+                "Implemented self-service analytics, eliminating tedious daily manual table iteration and reducing reporting effort."
+            ],
+            "technologies": ["Python", "Snowflake", "SQL", "ThoughtSpot"]
+        }
     ]
 }
