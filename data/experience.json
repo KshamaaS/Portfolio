@@ -104,7 +104,7 @@
             "startDate": "January 2023",
             "endDate": "April 2023",
             "description": [
-                "• Built Python regression automation tool certifying data transformations across Snowflake layers; selected as final university thesis (50% of semester grade)"
+                "Built Python regression automation tool certifying data transformations across Snowflake layers; selected as final university thesis (50% of semester grade)"
             ],
             "companyUrl": "https://www.ecolab.com",
             "logo": "assets/projects/ecolab.jpg"
