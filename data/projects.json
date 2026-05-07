@@ -83,6 +83,21 @@
         },
         {
             "id": "Project-5",
+            "title": "SlideScholar - RAG powered Study Assistant",
+            "type": "Personal",
+            "description": [
+                "Problem: Students studying from lecture slides can't query their own course material — generic AI tools like ChatGPT hallucinate answers untethered from actual slide content, scoring only 0.35 on faithfulness against course-specific questions.",
+                "Architecture decision: Multimodal two-stage ingestion (LLaVA-7B vision descriptions + pdfplumber text extraction merged per slide) before embedding with intfloat/e5-large-v2 — pure text extraction silently discards diagrams, equations, and charts that carry the majority of information density in STEM lecture slides.",
+                "What broke: Mistral-7B flashcard generation collapsed to returning identical top-3 cards across different topics when the JSON prompt lacked structural constraints — fixed by ending the prompt with a bare [ token to force the model directly into array generation, plus a regex fallback parser for truncated outputs.",
+                "Metric: Evaluated on 50 grounded QA pairs derived from actual course slides — hit rate 0.80, retrieval F1 0.75, answer relevance 0.78; 43-point faithfulness improvement over ChatGPT baseline (0.72 vs 0.35) on course-specific queries.",
+                "Deployment constraint: Entire inference stack runs at zero cost — LLaVA-7B and Mistral-7B on Google Colab A100 for ingestion, HuggingFace Inference API for live generation on Spaces CPU tier, with FAISS retrieval and e5-large-v2 embeddings running locally; no paid API calls anywhere in the pipeline."
+            ],
+            "technologies": ["Python", "LLaVA-7B", "Mistral-7B-Instruct", "HuggingFace Inference API", "FAISS", "intfloat/e5-large-v2", "sentence-transformers", "pdfplumber", "python-pptx", "bitsandbytes", "Gradio", "PyTorch", "NumPy", "RAGAS", "Google Colab", "HuggingFace Spaces"],
+            "github": "https://github.com/KshamaaS/SlideScholar",
+            "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/SlideScholar"
+        },
+        {
+            "id": "Project-6",
             "title": "View Regression Automation",
             "type": "Work",
             "description": [
@@ -94,7 +109,7 @@
             "technologies": ["Python", "Snowflake", "SQL"]
         },
         {
-            "id": "Project-6",
+            "id": "Project-7",
             "title": "SkinWise – RAG Skincare Recommendation System",
             "type": "Personal",
             "description": [
@@ -108,7 +123,7 @@
             "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/skincare-agent"
         },
         {
-            "id": "Project-7",
+            "id": "Project-8",
             "title": "Drosophila Larval Brain Network Analysis",
             "type": "Personal",
             "description": [
@@ -120,7 +135,7 @@
             "github": "https://github.com/KshamaaS/Drosophila-Larval-Brain-Network-Analysis"
         },
         {
-            "id": "Project-8",
+            "id": "Project-9",
             "title": "Book Recommendation Agent",
             "type": "Personal",
             "description": [
@@ -133,7 +148,7 @@
             "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/book-recommendation-agent"
         },
         {
-            "id": "Project-9",
+            "id": "Project-10",
             "title": "Colorectal Cancer Data Analysis",
             "type": "Personal",
             "description": [
@@ -146,7 +161,7 @@
             "liveUrl": "https://kshamaas.github.io/colorectal-cancer-analysis/"
         },
         {
-            "id": "Project-10",
+            "id": "Project-11",
             "title": "Email Alerting System",
             "type": "Work",
             "description": [
@@ -157,7 +172,7 @@
             "technologies": ["Python", "Snowflake", "SQL"]
         },
         {
-            "id": "Project-11",
+            "id": "Project-12",
             "title": "GBS Reporting",
             "type": "Work",
             "description": [
