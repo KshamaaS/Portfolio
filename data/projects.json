@@ -92,7 +92,7 @@
                 "Metric: Evaluated on 50 grounded QA pairs derived from actual course slides — hit rate 0.80, retrieval F1 0.75, answer relevance 0.78; 43-point faithfulness improvement over ChatGPT baseline (0.72 vs 0.35) on course-specific queries.",
                 "Deployment constraint: Entire inference stack runs at zero cost — LLaVA-7B and Mistral-7B on Google Colab A100 for ingestion, HuggingFace Inference API for live generation on Spaces CPU tier, with FAISS retrieval and e5-large-v2 embeddings running locally; no paid API calls anywhere in the pipeline."
             ],
-            "technologies": ["Python", "LLaVA-7B", "Mistral-7B-Instruct", "HuggingFace Inference API", "FAISS", "intfloat/e5-large-v2", "sentence-transformers", "pdfplumber", "python-pptx", "bitsandbytes", "Gradio", "PyTorch", "NumPy", "RAGAS", "Google Colab", "HuggingFace Spaces"],
+            "technologies": ["Python", "LLaVA-7B", "Mistral-7B", "HuggingFace Inference API", "FAISS", "intfloat/e5-large-v2", "sentence-transformers", "pdfplumber", "python-pptx", "bitsandbytes", "Gradio", "PyTorch", "NumPy", "RAG", "Google Colab", "HuggingFace Spaces"],
             "github": "https://github.com/KshamaaS/SlideScholar",
             "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/SlideScholar"
         },
