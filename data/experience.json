@@ -55,12 +55,12 @@
             "startDate": "September 2023",
             "endDate": "December 2026",
             "description": [
-                "Pursuing advanced coursework in Machine Learning, Deep Learning, Applied Machine Learning, and Functional Genomics",
-                "Developed multimodal UMAP project for dual-UMAP alignment using GSE140203 SHARE-seq dataset with 34,774 mouse skin cells",
-                "Built crash-resistant preprocessing pipeline handling both RNA expression and chromatin accessibility data",
-                "Implemented DQN agent for Pokemon battles and comprehensive AI skincare consultant application using RAG pipelines with LangChain and OpenAI's API",
-                "Utilized Google Cloud TPU credits for collaborative machine learning projects",
-                "Completed extensive work on regression analysis, geospatial data analysis, and algorithms coursework"
+                "Pursuing advanced coursework in Machine Learning, Deep Learning, Applied Machine Learning, and Functional Genomics.",
+                "Developed multimodal UMAP project for dual-UMAP alignment using GSE140203 SHARE-seq dataset with 34,774 mouse skin cells.",
+                "Built crash-resistant preprocessing pipeline handling both RNA expression and chromatin accessibility data.",
+                "Implemented comprehensive AI skincare consultant application using RAG pipelines with LangChain and OpenAI's API. Deployed on HuggingFace Spaces.",
+                "Completed extensive work on regression analysis, geospatial data analysis, and algorithms coursework.",
+                "Built a RAG-based study assistant that can explain class lecture slides and provide flash cards, summaries and sample exams called SlideScholar. Deployed on HuggingFace Spaces."
             ],
             "companyUrl": "https://www.columbia.edu",
             "logo": "assets/projects/columbia.jpg"
