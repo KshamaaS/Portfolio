@@ -39,9 +39,10 @@
             "startDate": "January 2026",
             "endDate": "Present",
             "description": [
-                "Conduct statistical and graph ML analysis on Drosophila larval brain connectome (NetworkX, scikit-learn, NumPy, SciPy, Pandas). Apply modularity maximization and stochastic block models for neural community detection across 1,000+ annotated neurons.",
-                "Implement spatial analysis algorithms (k-nearest neighbor, Hopkins statistic, Ripley’s K) to quantify synaptic clustering; co-authored abstract in CSHL Neuronal Circuits 2026 Abstract Book (p. 68). Preparing peer-reviewed manuscript on network-level synapse localization.",
-                "Developed modular Python pipelines consolidating 10+ fragmented research scripts into 3 reusable, documented modules under PI Dr. Gabrielle Gutierrez, reducing analysis runtime by ~40% and ensuring full reproducibility across experiments."
+                "Conduct statistical and graph ML analysis on Drosophila larval brain connectome (NetworkX, scikit-learn, NumPy, SciPy, Pandas). Apply modularity maximization, Louvain algorithm, and stochastic block models for neural community detection across 1,000+ annotated neurons spanning the full larval connectome.",
+                "Implement spatial analysis algorithms (k-nearest neighbor, Hopkins statistic, Ripley's K function) to quantify synaptic clustering patterns and characterize spatial organization of neural communities — identifying non-random structure that informs structure-function relationships in the developing nervous system.",
+                "Co-authored abstract published in CSHL Neuronal Circuits 2026 Abstract Book (p. 68). Accepted poster at Cognitive Computational Neuroscience (CCN) 2026. Preparing second peer-reviewed manuscript on network-level synapse localization for journal submission under PI Dr. Gabrielle Gutierrez at Barnard's Neural Computation Lab, Columbia University.",
+                "Consolidated 10+ fragmented research scripts into 3 reusable, fully documented Python modules with consistent naming conventions and inline documentation, reducing analysis runtime by ~40% and ensuring full reproducibility across experiments and contributors."
             ],
             "companyUrl": "https://barnard.edu/",
             "logo": "assets/projects/barnard.jpg"
