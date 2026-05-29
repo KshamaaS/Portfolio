@@ -51,17 +51,17 @@
             "title": "Master of Science in Data Science",
             "company": "Columbia University",
             "location": "New York, NY",
-            "gpa": "3.50/4.00 (GPA as of Fall)",
+            "gpa": "3.5012/4.00 (GPA as of Spring 2026)",
             "startDate": "September 2023",
             "endDate": "December 2026",
             "description": [
-                "Pursuing advanced coursework in Machine Learning, Deep Learning, Applied Machine Learning, and Functional Genomics.",
-                "Developed multimodal UMAP project for dual-UMAP alignment using GSE140203 SHARE-seq dataset with 34,774 mouse skin cells.",
+                "Completed advanced coursework in Statistical Inference and Modelling, Machine Learning for Data Science, Generative AI and LLMs, AI for Digital Transformation, Applied Machine Learning, Deep Learning, and Machine Learning for Functional Genomics.",
+                "Built SlideScholar — a multimodal RAG-based study assistant using LLaVA-7B vision descriptions and pdfplumber text extraction merged per slide, embedded with e5-large-v2 and indexed in FAISS. Achieved 0.72 faithfulness vs 0.35 ChatGPT baseline on course-specific queries, 0.80 hit rate on 50 grounded QA pairs. Entire inference stack runs at zero cost on Colab A100 and HuggingFace Spaces. Deployed publicly.",
+                "Developed multimodal UMAP project for dual-UMAP alignment using GSE140203 SHARE-seq dataset with 34,774 mouse skin cells — achieved 58% Silhouette Score improvement over WNN baseline while reducing RAM by 98.8%.",
                 "Built crash-resistant preprocessing pipeline handling both RNA expression and chromatin accessibility data.",
-                "Implemented comprehensive AI skincare consultant application using RAG pipelines with LangChain and OpenAI's API. Deployed on HuggingFace Spaces.",
-                "Completed extensive work on regression analysis, geospatial data analysis, and algorithms coursework.",
-                "Built a RAG-based study assistant that can explain class lecture slides and provide flash cards, summaries and sample exams called SlideScholar. Deployed on HuggingFace Spaces."
-            ],
+                "Implemented AI skincare consultant application using RAG pipelines with LangChain and OpenAI API, deployed on HuggingFace Spaces.",
+                "Completed extensive work on regression analysis, geospatial data analysis, and algorithms coursework."
+],
             "companyUrl": "https://www.columbia.edu",
             "logo": "assets/projects/columbia.jpg"
         },
