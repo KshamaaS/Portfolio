@@ -112,6 +112,19 @@
         },
         {
             "id": "Project-7",
+            "title": "NeuroLens",
+            "type": "Personal",
+            "description": [
+                "Administered a three-task conversational cognitive assessment — timed semantic and phonemic verbal fluency, narrative description, and delayed recall — collecting typed language samples as input to a six-marker NLP biomarker extraction pipeline.",
+                "Implemented six linguistic biomarkers using spaCy and NLTK including lexical diversity (TTR/MATTR), semantic and phonemic fluency counts, approximate idea density modeled on the Nun Study (Snowdon et al., 1996), syntactic complexity via subordination index, and disfluency rate — each benchmarked against literature-derived reference ranges.",
+                "Built marker-driven RAG retrieval over an 18-paper dementia prevention corpus (e5-large-v2 + FAISS with TF-IDF fallback) — retrieval is triggered by specific below-range biomarker scores rather than raw text similarity, ensuring coaching is anchored to the patient's actual linguistic profile.",
+                "Implemented RAGAS-style claim-level faithfulness evaluation on every generated coaching summary, classifying each factual claim as SUPPORTED, PARTIAL, or UNSUPPORTED against retrieved source excerpts — treating hallucination detection as the highest-priority evaluation step given the health-adjacent subject matter."
+            ],
+            "technologies": ["Python", "spaCy", "NLTK", "FAISS", "RAG", "RAGAS", "Groq API", "Streamlit", "HuggingFace", "NLP", "e5-large-v2"],
+            "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/NeuroLens"
+        },
+        {
+            "id": "Project-8",
             "title": "View Regression Automation",
             "type": "Work",
             "description": [
@@ -123,7 +136,7 @@
             "technologies": ["Python", "Snowflake", "SQL"]
         },
         {
-            "id": "Project-8",
+            "id": "Project-9",
             "title": "SkinWise – RAG Skincare Recommendation System",
             "type": "Personal",
             "description": [
@@ -137,7 +150,7 @@
             "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/skincare-agent"
         },
         {
-            "id": "Project-9",
+            "id": "Project-10",
             "title": "Drosophila Larval Brain Network Analysis",
             "type": "Personal",
             "description": [
@@ -149,7 +162,7 @@
             "github": "https://github.com/KshamaaS/Drosophila-Larval-Brain-Network-Analysis"
         },
         {
-            "id": "Project-10",
+            "id": "Project-11",
             "title": "Book Recommendation Agent",
             "type": "Personal",
             "description": [
@@ -162,7 +175,7 @@
             "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/book-recommendation-agent"
         },
         {
-            "id": "Project-11",
+            "id": "Project-12",
             "title": "Colorectal Cancer Data Analysis",
             "type": "Personal",
             "description": [
@@ -175,7 +188,7 @@
             "liveUrl": "https://kshamaas.github.io/colorectal-cancer-analysis/"
         },
         {
-            "id": "Project-12",
+            "id": "Project-13",
             "title": "Email Alerting System",
             "type": "Work",
             "description": [
@@ -186,7 +199,7 @@
             "technologies": ["Python", "Snowflake", "SQL"]
         },
         {
-            "id": "Project-13",
+            "id": "Project-14",
             "title": "GBS Reporting",
             "type": "Work",
             "description": [
