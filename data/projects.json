@@ -44,6 +44,20 @@
         },
         {
             "id": "Project-2",
+            "title": "CognitivePulse",
+            "type": "Personal",
+            "description": [
+                "Built a five-stage biomarker intelligence and RAG coaching platform for preventive brain health, mirroring the core product pipeline of clinical AI companies — biomarker intake → XGBoost risk stratification with SHAP explainability → modifiability-weighted intervention priority ranking → grounded coaching brief → patient-specific Q&A chatbot.",
+                "Trained XGBoost classifier on 2,149-patient Alzheimer's dataset (33 features) with 5-fold stratified CV and SHAP TreeExplainer waterfall charts showing individual-level biomarker contributions to each patient's risk score.",
+                "Built RAG coaching layer combining e5-large-v2 embeddings, FAISS vector retrieval over a 14-paper dementia prevention corpus, and Groq LLM inference — with a RAGAS-style claim-level faithfulness evaluation classifying every generated health claim as SUPPORTED, PARTIAL, or UNSUPPORTED before display.",
+                "Deployed on HuggingFace Spaces free CPU tier with a synthetic data fallback and full SHAP, Plotly, and Streamlit visualisation stack — entire inference pipeline runs at zero cost."
+            ],
+            "technologies": ["Python", "XGBoost", "SHAP", "FAISS", "LangChain", "Groq API", "Streamlit", "Plotly", "HuggingFace", "RAG", "RAGAS"],
+            "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/CognitivePulse",
+            "github": "https://github.com/KshamaaS/CognitivePulse"
+        },
+        {
+            "id": "Project-3",
             "title": "LLM Coaching App – Two-Stage Retrieval",
             "type": "Personal",
             "description": [
@@ -56,7 +70,7 @@
             "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/coaching-app"
         },
         {
-            "id": "Project-3",
+            "id": "Project-4",
             "title": "Dual-UMAP Multimodal Genomics Integration",
             "type": "Personal",
             "description": [
@@ -69,7 +83,7 @@
             "github": "https://github.com/KshamaaS/Multiome_UMAP_Project"
         },
         {
-            "id": "Project-4",
+            "id": "Project-5",
             "title": "Tiny Transformer – Shakespeare Text Generation",
             "type": "Personal",
             "description": [
@@ -82,7 +96,7 @@
             "github": "https://github.com/KshamaaS/TinyTransformer"
         },
         {
-            "id": "Project-5",
+            "id": "Project-6",
             "title": "SlideScholar - RAG powered Study Assistant",
             "type": "Personal",
             "description": [
@@ -97,7 +111,7 @@
             "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/SlideScholar"
         },
         {
-            "id": "Project-6",
+            "id": "Project-7",
             "title": "View Regression Automation",
             "type": "Work",
             "description": [
@@ -109,7 +123,7 @@
             "technologies": ["Python", "Snowflake", "SQL"]
         },
         {
-            "id": "Project-7",
+            "id": "Project-8",
             "title": "SkinWise – RAG Skincare Recommendation System",
             "type": "Personal",
             "description": [
@@ -123,7 +137,7 @@
             "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/skincare-agent"
         },
         {
-            "id": "Project-8",
+            "id": "Project-9",
             "title": "Drosophila Larval Brain Network Analysis",
             "type": "Personal",
             "description": [
@@ -135,7 +149,7 @@
             "github": "https://github.com/KshamaaS/Drosophila-Larval-Brain-Network-Analysis"
         },
         {
-            "id": "Project-9",
+            "id": "Project-10",
             "title": "Book Recommendation Agent",
             "type": "Personal",
             "description": [
@@ -148,7 +162,7 @@
             "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/book-recommendation-agent"
         },
         {
-            "id": "Project-10",
+            "id": "Project-11",
             "title": "Colorectal Cancer Data Analysis",
             "type": "Personal",
             "description": [
@@ -161,7 +175,7 @@
             "liveUrl": "https://kshamaas.github.io/colorectal-cancer-analysis/"
         },
         {
-            "id": "Project-11",
+            "id": "Project-12",
             "title": "Email Alerting System",
             "type": "Work",
             "description": [
@@ -172,7 +186,7 @@
             "technologies": ["Python", "Snowflake", "SQL"]
         },
         {
-            "id": "Project-12",
+            "id": "Project-13",
             "title": "GBS Reporting",
             "type": "Work",
             "description": [
