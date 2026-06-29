@@ -125,6 +125,20 @@
         },
         {
             "id": "Project-8",
+            "title": "ClaimSense - Agentic Healthcare Payment Integrity System",
+            "type": "Personal",
+            "description": [
+                "Problem: CMS estimated $31B in improper Medicare payments in FY2023. Existing tools flag anomalies but stop there — reviewers still manually reason through why a claim is suspicious and what action to take, creating a costly bottleneck between signal and decision.",
+                "Architecture decision: Built a three-stage pipeline — rule-based detection engine across 6 anomaly categories (diagnosis-procedure mismatch, duplicate billing, high-frequency billing, amount outliers, future dates of service, unbundling) feeding into Groq LLM (llama3-70b) for chain-of-reasoning explanation per flagged claim, with a RAGAS-style faithfulness evaluation layer. Chose rule-based detection over an ML classifier to keep the system auditable and explainable in a clinical context.",
+                "What broke: Early LLM prompts generated plausible but unfaithful explanations — the model invented billing history not present in the claim record. Fixed by adding strict grounding instructions and a faithfulness check that rejects responses referencing facts absent from the input data.",
+                "Metric: Flags claims across 6 anomaly types with confidence scores and risk levels (Low/Medium/High/Critical); LLM-generated chain-of-reasoning and recommended reviewer action produced per flagged claim; 4-page interactive Streamlit app deployed live on HuggingFace Spaces free tier."
+            ],
+            "technologies": ["Python", "Groq LLM", "LLaMA3-70b", "Streamlit", "HuggingFace Spaces", "RAGAS", "Agentic AI", "Pandas", "NumPy", "Synthetic Data Generation"],
+            "github": "https://github.com/KshamaaS/ClaimSense",
+            "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/ClaimSense"
+        },
+        {
+            "id": "Project-9",
             "title": "View Regression Automation",
             "type": "Work",
             "description": [
@@ -136,7 +150,7 @@
             "technologies": ["Python", "Snowflake", "SQL"]
         },
         {
-            "id": "Project-9",
+            "id": "Project-10",
             "title": "SkinWise – RAG Skincare Recommendation System",
             "type": "Personal",
             "description": [
@@ -150,7 +164,7 @@
             "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/skincare-agent"
         },
         {
-            "id": "Project-10",
+            "id": "Project-11",
             "title": "Drosophila Larval Brain Network Analysis",
             "type": "Personal",
             "description": [
@@ -162,7 +176,7 @@
             "github": "https://github.com/KshamaaS/Drosophila-Larval-Brain-Network-Analysis"
         },
         {
-            "id": "Project-11",
+            "id": "Project-12",
             "title": "Book Recommendation Agent",
             "type": "Personal",
             "description": [
@@ -175,7 +189,7 @@
             "liveUrl": "https://huggingface.co/spaces/kshamaasuresh/book-recommendation-agent"
         },
         {
-            "id": "Project-12",
+            "id": "Project-13",
             "title": "Colorectal Cancer Data Analysis",
             "type": "Personal",
             "description": [
@@ -188,7 +202,7 @@
             "liveUrl": "https://kshamaas.github.io/colorectal-cancer-analysis/"
         },
         {
-            "id": "Project-13",
+            "id": "Project-14",
             "title": "Email Alerting System",
             "type": "Work",
             "description": [
@@ -199,7 +213,7 @@
             "technologies": ["Python", "Snowflake", "SQL"]
         },
         {
-            "id": "Project-14",
+            "id": "Project-15",
             "title": "GBS Reporting",
             "type": "Work",
             "description": [
