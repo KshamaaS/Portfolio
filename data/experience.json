@@ -29,20 +29,21 @@
         "",
         "============================================================"
     ],
-    
+
     "experiences": [
         {
             "id": "1",
-            "title": "Data Analyst Graduate Assistant",
+            "title": "Graduate Research Assistant",
             "company": "Barnard College (Columbia University)",
             "location": "New York, NY",
             "startDate": "January 2026",
             "endDate": "Present",
             "description": [
-                "Conduct statistical and graph ML analysis on Drosophila larval brain connectome (NetworkX, scikit-learn, NumPy, SciPy, Pandas). Apply modularity maximization, Louvain algorithm, and stochastic block models for neural community detection across 1,000+ annotated neurons spanning the full larval connectome.",
-                "Implement spatial analysis algorithms (k-nearest neighbor, Hopkins statistic, Ripley's K function) to quantify synaptic clustering patterns and characterize spatial organization of neural communities — identifying non-random structure that informs structure-function relationships in the developing nervous system.",
-                "Co-authored abstract published in CSHL Neuronal Circuits 2026 Abstract Book (p. 68). Accepted poster at Cognitive Computational Neuroscience (CCN) 2026. Preparing second peer-reviewed manuscript on network-level synapse localization for journal submission under PI Dr. Gabrielle Gutierrez at Barnard's Neural Computation Lab, Columbia University.",
-                "Consolidated 10+ fragmented research scripts into 3 reusable, fully documented Python modules with consistent naming conventions and inline documentation, reducing analysis runtime by ~40% and ensuring full reproducibility across experiments and contributors."
+                "Conduct statistical and graph ML analysis on the Drosophila larval brain connectome (NetworkX, scikit-learn, NumPy, SciPy, Pandas); apply modularity maximization, Louvain algorithm, and stochastic block models for neural community detection across 1,000+ annotated neurons spanning the full larval connectome.",
+                "Implement spatial analysis algorithms — k-nearest neighbor graphs, Hopkins statistic, and Ripley's K function — to quantify synaptic clustering patterns and characterize spatial organization of neural communities, identifying non-random structure that informs structure-function relationships in the developing nervous system.",
+                "Co-authored abstract published in CSHL Neuronal Circuits 2026 Abstract Book (p. 68); accepted poster at Cognitive Computational Neuroscience (CCN) 2026; co-authoring peer-reviewed manuscript on network-level synapse localization for journal submission under PI Dr. Gabrielle Gutierrez at Barnard's Neural Computation Lab.",
+                "Consolidated 10+ fragmented research scripts into 3 reusable, fully documented Python modules with consistent naming conventions and inline documentation, reducing analysis runtime by ~40% and ensuring full reproducibility across experiments and contributors.",
+                "Apply multivariate statistical methods and graph-theoretic measures (modularity, clustering coefficient, path length) to characterize mesoscale structure in biological neural networks, bridging computational methods with neuroscience domain questions about how network organization constrains function."
             ],
             "companyUrl": "https://barnard.edu/",
             "logo": "assets/projects/barnard.jpg"
@@ -57,12 +58,11 @@
             "endDate": "December 2026",
             "description": [
                 "Completed advanced coursework in Statistical Inference and Modelling, Machine Learning for Data Science, Generative AI and LLMs, AI for Digital Transformation, Applied Machine Learning, Deep Learning, and Machine Learning for Functional Genomics.",
-                "Built SlideScholar — a multimodal RAG-based study assistant using LLaVA-7B vision descriptions and pdfplumber text extraction merged per slide, embedded with e5-large-v2 and indexed in FAISS. Achieved 0.72 faithfulness vs 0.35 ChatGPT baseline on course-specific queries, 0.80 hit rate on 50 grounded QA pairs. Entire inference stack runs at zero cost on Colab A100 and HuggingFace Spaces. Deployed publicly.",
-                "Developed multimodal UMAP project for dual-UMAP alignment using GSE140203 SHARE-seq dataset with 34,774 mouse skin cells — achieved 58% Silhouette Score improvement over WNN baseline while reducing RAM by 98.8%.",
-                "Built crash-resistant preprocessing pipeline handling both RNA expression and chromatin accessibility data.",
-                "Implemented AI skincare consultant application using RAG pipelines with LangChain and OpenAI API, deployed on HuggingFace Spaces.",
-                "Completed extensive work on regression analysis, geospatial data analysis, and algorithms coursework."
-],
+                "Built SlideScholar — a multimodal RAG-based study assistant using LLaVA-7B vision descriptions and pdfplumber text extraction merged per slide, embedded with intfloat/e5-large-v2 and indexed in FAISS; achieved 0.72 faithfulness vs 0.35 ChatGPT baseline on course-specific queries and 0.80 hit rate on 50 grounded QA pairs. Entire inference stack runs at zero cost on Colab A100 and HuggingFace Spaces.",
+                "Developed a novel Dual-UMAP multimodal genomics integration pipeline on the GSE140203 SHARE-seq dataset (34,774 mouse skin cells, 19,303 RNA genes + 344,592 ATAC peaks) — achieved 58% Silhouette Score improvement over WNN baseline while reducing RAM by 98.8% (96 GB to 1.2 GB) through sparse matrix optimization.",
+                "Built a Tiny Transformer from scratch for Shakespeare text generation (3 layers, 8 attention heads, 722K parameters) with WordPiece tokenization, cosine annealing LR schedule, and GPU acceleration; achieved validation perplexity of 45.25 — 11x better than random baseline.",
+                "Implemented an AI skincare consultant using RAG pipelines (LangChain, ChromaDB, HuggingFace embeddings) that processes natural language queries over 500+ products with sub-second latency; deployed live on HuggingFace Spaces."
+            ],
             "companyUrl": "https://www.columbia.edu",
             "logo": "assets/projects/columbia.jpg"
         },
@@ -74,9 +74,11 @@
             "startDate": "January 2025",
             "endDate": "July 2025",
             "description": [
-                "Engineered production Generative AI data validation system using Anthropic Claude API on Databricks and Snowflake Cortex AI (Mistral-large2), achieving 70% improvement in anomaly detection accuracy across 10M+ records.",
-                "Built end-to-end NLP pipeline to parse and persist LLM outputs into Snowflake tables, automating ThoughtSpot BI dashboards for 50+ stakeholders; compressed analytics cycle from days to 3 hours. Managed end-to-end model deployment and production rollout of Streamlit dashboards on Azure for self-service visualization.",
-                "Engineered Python pipeline monitoring system parsing Snowflake execution logs to fire real-time email alerts in <120s, reducing downtime 40%+. Built ML classification framework correcting erroneous MDM records across 5M+ rows, cutting manual review 80%."
+                "Engineered production Generative AI data validation system using Anthropic Claude API on Databricks and Snowflake Cortex AI (Mistral-large2), achieving 70% improvement in anomaly detection accuracy across 10M+ daily records — one of the first Claude API integrations in the organization's production stack.",
+                "Built end-to-end NLP pipeline to parse and persist LLM outputs into Snowflake tables, automating ThoughtSpot BI dashboards for 50+ stakeholders and compressing the analytics cycle from days to 3 hours; managed full model deployment and production rollout of Streamlit dashboards on Azure for self-service visualization.",
+                "Engineered Python pipeline monitoring system that parsed Snowflake execution logs and fired real-time email alerts in under 120 seconds, reducing pipeline downtime by 40%+ and enabling proactive incident response before business stakeholders were impacted.",
+                "Built ML classification framework to detect and correct erroneous Master Data Management (MDM) records across 5M+ rows, cutting manual review effort by 80% and improving downstream data quality for reporting and analytics teams.",
+                "Designed and implemented automated data reconciliation and self-reflection evaluation loop for LLM outputs — validating generated results against ground truth before persistence, reducing hallucination risk in production AI pipelines."
             ],
             "companyUrl": "https://www.ecolab.com",
             "logo": "assets/projects/ecolab.jpg"
@@ -89,10 +91,11 @@
             "startDate": "July 2023",
             "endDate": "December 2024",
             "description": [
-                "Designed and executed end-to-end QA testing strategy for SAP-to-Snowflake ETL pipelines, performing systematic dev-to-production data validation across all transformation layers (ILA, ILB, Base Model) using both manual test case design and automated reconciliation scripts; achieved 98% data accuracy via primary key join reconciliation.",
-                "Built SQL Server-to-Snowflake data reconciliation system performing primary key join comparisons across millions of records to surface mismatches between source and target environments; auto-generated discrepancy reports compressed migration timeline by60%.",
-                "Engineered Python-based automated data quality framework comparing dev and production environments at row, column, and aggregate level — detecting schema drift, transformation errors, and statistical anomalies across 1,000+ Snowflake views; reduced QA cycle time by 90% and cut manual testing effort from days to hours.",
-                "Configured and maintained CI/CD pipelines using Azure Repos and YAML across 3 environments (dev, staging, production), reducing manual deployment steps by 70% and cutting release cycle time from days to under 2 hours."
+                "Designed and executed end-to-end QA testing strategy for SAP-to-Snowflake ETL pipelines, performing systematic dev-to-production data validation across all transformation layers (ILA, ILB, Base Model) using manual test case design and automated reconciliation scripts; achieved 98% data accuracy via primary key join reconciliation.",
+                "Built SQL Server-to-Snowflake data reconciliation system performing primary key join comparisons across millions of records to surface mismatches between source and target environments; auto-generated discrepancy reports compressed migration timeline by 60%.",
+                "Engineered Python-based automated data quality framework comparing dev and production environments at row, column, and aggregate level — detecting schema drift, transformation errors, and statistical anomalies across 1,000+ Snowflake views; reduced QA cycle time by 90% and cut manual testing from days to hours.",
+                "Configured and maintained CI/CD pipelines using Azure Repos and YAML across 3 environments (dev, staging, production), reducing manual deployment steps by 70% and cutting release cycle time from days to under 2 hours.",
+                "Developed automated ThoughtSpot dashboard reporting system for daily source-to-target data comparisons, enabling real-time error detection and eliminating daily manual table iteration for the analytics team."
             ],
             "companyUrl": "https://www.ecolab.com",
             "logo": "assets/projects/ecolab.jpg"
@@ -105,7 +108,8 @@
             "startDate": "January 2023",
             "endDate": "April 2023",
             "description": [
-                "Built Python regression automation tool certifying data transformations across Snowflake layers; selected as final university thesis (50% of semester grade)"
+                "Built Python regression automation tool certifying data transformations across Snowflake layers; selected as final university thesis (50% of semester grade).",
+                "Gained hands-on experience with Snowflake, SQL, and ETL pipeline validation — laying the foundation for a full-time offer and two years of production data engineering work."
             ],
             "companyUrl": "https://www.ecolab.com",
             "logo": "assets/projects/ecolab.jpg"
@@ -119,9 +123,11 @@
             "startDate": "August 2019",
             "endDate": "August 2023",
             "description": [
-                "Graduated with Distinction and Class Honors (Top 5% of class)",
-                "Relevant coursework: Data Structures and Algorithms, Database Management Systems, Operating Systems, Computer Networks, Software Engineering",
-                "Completed a capstone project on 'Smart Healthcare System using IoT' involving real-time health monitoring and alert systems"
+                "Graduated with Distinction and Class Honors — top 5% of graduating class with a 3.99/4.00 GPA.",
+                "Completed rigorous coursework in Data Structures and Algorithms, Database Management Systems, Artificial Intelligence, Deep Learning, Operating Systems, Computer Networks, and Software Engineering.",
+                "Published peer-reviewed research: 'Smart Irrigation System using Soil Moisture Sensor' in IJERCSE Vol. 10, Issue 7 (2023) — applying IoT sensor data and embedded systems to real-world agricultural optimization.",
+                "Completed capstone project on Smart Healthcare System using IoT, integrating real-time health monitoring sensors with alert and data logging systems.",
+                "Selected intern thesis project (Python regression automation tool for Snowflake ETL validation at Ecolab) as 50% of final semester grade — recognized for production-level technical quality."
             ],
             "companyUrl": "https://www.msruas.ac.in",
             "logo": "assets/projects/msruas.jpg"
