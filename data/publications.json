@@ -80,6 +80,17 @@
             "description": "(Page 68) Using network science and statistical modeling on the Drosophila connectome, we found that densely interconnected groups of presynaptic neurons — identified via community detection — tend to localize their synapses together onto target neurons' dendrites, suggesting that network-level connectivity structure predicts nanoscale synaptic organization with implications for dendritic computation.",
             "url": "https://meetings.cshl.edu/posters/circuits26/Circuits2026_AbstractBook.pdf",
             "pdf": "assets/publications/Poster for conference 2.pdf"
+        },
+        {
+            "id": "Conference-3",
+            "title": "Modularity maximization reveals network-level organization and synaptic localization",
+            "type": "Research",
+            "authors": ["Gabrielle J. Gutierrez", "Pablo San Francisco", "Kshamaa Suresh"],
+            "year": "2026",
+            "conference": "Cognitive Computational Neuroscience (CCN) 2026, Extended Abstracts",
+            "description": "Using community detection on the network of presynaptic inputs to target neurons in the Drosophila connectome, we found that neurons within a community cluster their synapses onto the target neuron's dendrites. This suggests that network level structure can reveal nanoscale organization with biophysical relevance, with implications for dendritic processing and for inferring neuronal and circuit computations from the connectome.",
+            "url": "https://openreview.net/forum?id=YkBR7DrqwJ",
+            "pdf": "https://openreview.net/pdf?id=YkBR7DrqwJ"
         }
     ]
 }
